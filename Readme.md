@@ -19,10 +19,10 @@ All actual files of the webpage are in the `docs` directory. **You are expected 
 | 2024-08-09-traits-morph.md   | Emma and Thomas         | [https://fau-paleo.github.io/apw_2024/morphometrics/](https://fau-paleo.github.io/apw_2024/morphometrics/)   |
 | 2024-08-13-phylogenetics.md  | Rachel                  | [https://fau-paleo.github.io/apw_2024/phylogenetics/](https://fau-paleo.github.io/apw_2024/phylogenetics/)   |
 | 2024-08-15-div-cmr.md        | Lee Hsiang              | [https://fau-paleo.github.io/apw_2024/cmr/](https://fau-paleo.github.io/apw_2024/cmr/)                       |
-| 2024-08-17-layeranalyzer.md  | Lee Hsiang              | [https://fau-paleo.github.io/apw_2024/layeranalyzer/](https://fau-paleo.github.io/apw_2024/layeranalyzer/)                       |
+| 2024-08-17-layeranalyzer.md  | Lee Hsiang              | [https://fau-paleo.github.io/apw_2024/layeranalyzer/](https://fau-paleo.github.io/apw_2024/layeranalyzer/)   |
 | 2024-08-19-pyrate.md         | Daniele                 | [https://fau-paleo.github.io/apw_2024/pyrate_ai/](https://fau-paleo.github.io/apw_2024/pyrate_ai/)           |
 | 2024-08-21-paleogeography.md | Liz and Adam            | [https://fau-paleo.github.io/apw_2024/paleogeography/](https://fau-paleo.github.io/apw_2024/paleogeography/) |
-| 2024-08-22-ssub-niches.md    | Erin and Tom            | [https://fau-paleo.github.io/apw_2024/ssub-niches/](https://fau-paleo.github.io/apw_2024/ssub-niches/)                 |
+| 2024-08-22-ssub-niches.md    | Erin                    | [https://fau-paleo.github.io/apw_2024/ssub-niches/](https://fau-paleo.github.io/apw_2024/ssub-niches/)       |
 
 
 - I updated the metadata from previous year's pages, but the rest of the pages should be the same

@@ -1,8 +1,8 @@
 ---
 title: "Module 9: Spatial Subsampling and Ecological Niche Modelling"
 layout: "post" 
-date: 2024-07-04
 permalink: "ssub-niches/"
+date: 2024-07-04
 ---
 
 # Schedule

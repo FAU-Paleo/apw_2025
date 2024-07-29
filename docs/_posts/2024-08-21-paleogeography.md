@@ -5,6 +5,8 @@ date: 2024-07-04
 permalink: "paleogeography/"
 ---
 
+
+
 # Basic GIS
 
 - [Slideshow]({{site.baseurl}}/data/paleogeography/2023-09-04_GIS_basics.pdf)
