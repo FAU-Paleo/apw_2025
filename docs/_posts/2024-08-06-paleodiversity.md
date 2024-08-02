@@ -12,7 +12,7 @@ Welcome to Module 2: Paleodiversity Analyses in R! Across these two days, we'll 
 |--------|---------------------------------------------------------------------------------|
 | Aug 06 | **Day 3**: Community diversity                                                  |
 | Aug 07 | **Day 4**: Fossil data structure & sampling standardization                     |
-| Aug 08 | **Day 5**: counting-based diversity dynamics                                    |
+| Aug 08 | **Day 5**: Global diversity dynamics                                            |
 |--------|---------------------------------------------------------------------------------|
 
 <br>
@@ -105,6 +105,7 @@ Suggested papers are hyperlinked in the slideshows - any issues accessing them, 
 
 ## Day 5: Global diversity dynamics 
 with Ádám Kocsis
+
 
 # Slides
 - [1. Diversity dynamics - conceptual intro]({{site.baseurl}}/data/paleodiversity/Day5_Adam/2023-08-25_divDyn_basics.pdf)
