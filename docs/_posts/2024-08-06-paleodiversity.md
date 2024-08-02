@@ -11,8 +11,8 @@ Welcome to Module 2: Paleodiversity Analyses in R! Across these two days, we'll 
 | When   | What                                                                            |
 |--------|---------------------------------------------------------------------------------|
 | Aug 06 | **Day 3**: Community diversity                                                  |
-| Aug 07 | **Day 4**: Fossil record databases & biases / counting-based diversity dynamics |
-| Aug 08 | **Day 5**: Sampling standardization                                             |
+| Aug 07 | **Day 4**: Fossil data structure & sampling standardization                     |
+| Aug 08 | **Day 5**: counting-based diversity dynamics                                    |
 |--------|---------------------------------------------------------------------------------|
 
 <br>
@@ -53,14 +53,14 @@ with Wolfgang Kiessling
 <br>
 
 
-## Day 4: Exploring fossil occurrence data and fossil record biases
-with Emma Dunne & Lisa Schnetz
+## Day 4: Fossil data structure & sampling standardization
+with Emma Dunne
 
 <br>
 
 ### Content
 
-There are three main parts to this day and each one has an associated exercise in R:
+There are three main topics related to this day and each one has an associated exercise in R:
 
 1. **Databases in Paleobiology** - available databases, futurproofing, accessing the Paleobiology Database and importing datasets into R
 2. **Fossil record biases** - exaploring the impact of biases on estimates of diversity through visualisations and simple statistics
