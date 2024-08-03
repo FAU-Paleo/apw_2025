@@ -112,3 +112,6 @@ with Ádám Kocsis
 - [2. divDyn - Practicals]({{site.baseurl}}/data/paleodiversity/Day4_Adam/divDyn_apw2023.html)
 - [3. The coral example](https://evolv-ed.net//articles/2023-06-16_corals_divdyn-2.html)
 
+# PBDB Processing
+- Scripts: [binningCompare.R]({{site.baseurl}}/data/paleodiversity/Day4_Adam/binningCompare.R)
+- Result: [pbdb_processed_2024-07-11.rds](https://www.dropbox.com/scl/fi/h5uw1g8nqrqc0se8f6tjf/pbdb_processed_2024-07-11.rds?rlkey=el5kcxoyhmriccwmykhoa8lcn&st=rni6x0kn&dl=1)
