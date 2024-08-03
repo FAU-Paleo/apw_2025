@@ -10,9 +10,9 @@ Welcome to Module 2: Paleodiversity Analyses in R! Across these two days, we'll 
 
 | When   | What                                                                            |
 |--------|---------------------------------------------------------------------------------|
-| Aug 06 | **Day 3**: Community diversity                                                  |
-| Aug 07 | **Day 4**: Fossil data structure & sampling standardization                     |
-| Aug 08 | **Day 5**: Global diversity dynamics                                            |
+| Aug 06 | **Day 2**: Community diversity                                                  |
+| Aug 07 | **Day 3**: Fossil data structure & sampling standardization                     |
+| Aug 08 | **Day 4**: Global diversity dynamics                                            |
 |--------|---------------------------------------------------------------------------------|
 
 <br>
@@ -21,7 +21,7 @@ Welcome to Module 2: Paleodiversity Analyses in R! Across these two days, we'll 
 
 <br>
 
-## Day 3: Community diversity
+## Day 2: Community diversity
 with Wolfgang Kiessling
 
 <br>
@@ -53,7 +53,7 @@ with Wolfgang Kiessling
 <br>
 
 
-## Day 4: Fossil data structure & sampling standardization
+## Day 3: Fossil data structure & sampling standardization
 with Emma Dunne
 
 <br>
@@ -86,9 +86,9 @@ There are three main topics related to this day and each one has an associated e
 - [GitHub repo](https://github.com/emmadunne/APW-2023-paleodiversity)
 
 ### Slideshows
-- [1. Databases in paleobiology]({{site.baseurl}}/data/paleodiversity/Day4_Emma/01_Databases.pdf)
-- [2. Fossil record biases]({{site.baseurl}}/data/paleodiversity/Day4_Emma/02_Fossil_biases.pdf)
-- [3. Sampling standardisation]({{site.baseurl}}/data/paleodiversity/Day4_Emma/03_Sampling_standardisation.pdf)
+- [1. Databases in paleobiology]({{site.baseurl}}/data/paleodiversity/Day3_Emma/01_Databases.pdf)
+- [2. Fossil record biases]({{site.baseurl}}/data/paleodiversity/Day3_Emma/02_Fossil_biases.pdf)
+- [3. Sampling standardisation]({{site.baseurl}}/data/paleodiversity/Day3_Emma/03_Sampling_standardisation.pdf)
 
 Suggested papers are hyperlinked in the slideshows - any issues accessing them, just email Emma!
 
@@ -103,11 +103,12 @@ Suggested papers are hyperlinked in the slideshows - any issues accessing them, 
 - - -
 
 
-## Day 5: Global diversity dynamics 
+## Day 4: Global diversity dynamics 
 with Ádám Kocsis
 
 
 # Slides
-- [1. Diversity dynamics - conceptual intro]({{site.baseurl}}/data/paleodiversity/Day5_Adam/2023-08-25_divDyn_basics.pdf)
-- [2. divDyn - Practicals]({{site.baseurl}}/data/paleodiversity/Day5_Adam/divDyn_apw2023.html)
-- [3. The coral example](https://evolv-ed.net/posts/analpal/2023-04-02_corals_divdyn/scleractinian-tutorial_chronos.html)
+- [1. Diversity dynamics - conceptual intro]({{site.baseurl}}/data/paleodiversity/Day4_Adam/2023-08-25_divDyn_basics.pdf)
+- [2. divDyn - Practicals]({{site.baseurl}}/data/paleodiversity/Day4_Adam/divDyn_apw2023.html)
+- [3. The coral example](https://evolv-ed.net//articles/2023-06-16_corals_divdyn-2.html)
+
