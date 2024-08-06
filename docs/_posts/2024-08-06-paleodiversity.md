@@ -33,22 +33,28 @@ with Wolfgang Kiessling
 
 
 ### Slideshow
-- [Community diversity]({{site.baseurl}}/data/paleodiversity/CommunityDiversity2023.pptx)
+- [Community diversity]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/CommunityDiversity2024.pptx)
 
 ### R code
-- [Alpha_div.R]({{site.baseurl}}/data/paleodiversity/Alpha_div.R)
-- [Beta_div.R]({{site.baseurl}}/data/paleodiversity/Beta_div.R)
+- [Alpha_div_new.R]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/Alpha_div_new.R)
+- [Beta_div.R]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/Beta_div.R)
+- [Beta_div_new.R]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/Beta_div_new.R)
+{%comment%}
 - [sqs_Holland.R]({{site.baseurl}}/data/paleodiversity/sqs_Holland.R)
+{%endcomment%}
 
 
 ### Datasets
+- [Radiolarians.csv]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/Radiolarians.csv)
+
+{%comment%}
 - [Cassian.csv]({{site.baseurl}}/data/paleodiversity/Cassian.csv)
-- [Radiolarians.csv]({{site.baseurl}}/data/paleodiversity/Radiolarians.csv)
 - [Triassic_div.csv]({{site.baseurl}}/data/paleodiversity/Triassic_div.csv)
+{%endcomment%}
 
 
 ### Reading list
-[Click to download]({{site.baseurl}}/data/paleodiversity/ReadingList_Kiessling.docx)
+[Click to download]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/ReadingList_Kiessling.docx)
 
 <br>
 
