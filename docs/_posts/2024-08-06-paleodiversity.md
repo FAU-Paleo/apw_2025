@@ -89,14 +89,14 @@ There are three main topics related to this day and each one has an associated e
 |-------|-------|-----------------------------------|
 
 ### Code and files
-- [GitHub repo](https://github.com/emmadunne/APW-2023-paleodiversity)
+- [GitHub repo](https://github.com/emmadunne/APW_2024)
 
 ### Slideshows
 - [1. Databases in paleobiology]({{site.baseurl}}/data/paleodiversity/Day3_Emma/01_Databases.pdf)
 - [2. Fossil record data structure]({{site.baseurl}}/data/paleodiversity/Day3_Emma/02_Fossil_data.pdf)
 - [3. Sampling standardisation]({{site.baseurl}}/data/paleodiversity/Day3_Emma/03_Sampling_standardisation.pdf)
 
-Suggested papers are hyperlinked in the slideshows - any issues accessing them, just email Emma!
+Suggested papers are hyperlinked in the slideshows - any issues accessing them, just email me!
 
 ### Other useful links
 - [HTML Color Codes](https://htmlcolorcodes.com/)
