@@ -81,7 +81,7 @@ There are three main topics related to this day and each one has an associated e
 |-------|-------|-----------------------------------|
 | 9:15  | 10:30 | Databases in paleobiology         |
 | 10:30 | 10:45 | **Coffee**                        |
-| 10:45 | 12:00 | Fossil record biases              |
+| 10:45 | 12:00 | Fossil record data structure      |
 | 12:00 | 13:30 | **Lunch**                         |
 | 13:30 | 15:00 | Sampling standardisation          |
 | 15:00 | 15:15 | **Coffee**                        |
