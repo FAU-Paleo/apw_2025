@@ -69,7 +69,7 @@ with Emma Dunne
 There are three main topics related to this day and each one has an associated exercise in R:
 
 1. **Databases in Paleobiology** - available databases, futurproofing, accessing the Paleobiology Database and importing datasets into R
-2. **Fossil record data structure** - exaploring the impact of heterogenous data structures (biases) on estimates of diversity through visualisations and simple statistics
+2. **Fossil record data structure** - exploring the impact of heterogeneous data structures (biases) on estimates of diversity through visualisations and simple statistics
 3. **Sampling standardisation** - Rarefaction/Extrapolation curves, coverage-based rarefaction with iNEXT, Shareholder Quorum Subsampling (SQS), and squares
 
 <br>
