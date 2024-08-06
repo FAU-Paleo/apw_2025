@@ -38,7 +38,7 @@ with Wolfgang Kiessling
 ### R code
 - [Alpha_div_new.R]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/Alpha_div_new.R)
 - [Beta_div.R]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/Beta_div.R)
-- [Beta_div_new.R]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/Beta_div_new.R)
+- [Beta_div_Bangtoupo.R]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/Beta_div_Bangtoupo.R)
 {%comment%}
 - [sqs_Holland.R]({{site.baseurl}}/data/paleodiversity/sqs_Holland.R)
 {%endcomment%}
