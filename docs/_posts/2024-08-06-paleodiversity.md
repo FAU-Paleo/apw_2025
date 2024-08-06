@@ -69,7 +69,7 @@ with Emma Dunne
 There are three main topics related to this day and each one has an associated exercise in R:
 
 1. **Databases in Paleobiology** - available databases, futurproofing, accessing the Paleobiology Database and importing datasets into R
-2. **Fossil record biases** - exaploring the impact of biases on estimates of diversity through visualisations and simple statistics
+2. **Fossil record data structure** - exaploring the impact of heterogenous data structures (biases) on estimates of diversity through visualisations and simple statistics
 3. **Sampling standardisation** - Rarefaction/Extrapolation curves, coverage-based rarefaction with iNEXT, Shareholder Quorum Subsampling (SQS), and squares
 
 <br>
@@ -79,7 +79,7 @@ There are three main topics related to this day and each one has an associated e
 |-------|-------|-----------------------------------|
 | From  | To    | Details                           |
 |-------|-------|-----------------------------------|
-| 9:00  | 10:30 | Databases in paleobiology         |
+| 9:15  | 10:30 | Databases in paleobiology         |
 | 10:30 | 10:45 | **Coffee**                        |
 | 10:45 | 12:00 | Fossil record biases              |
 | 12:00 | 13:30 | **Lunch**                         |
@@ -93,7 +93,7 @@ There are three main topics related to this day and each one has an associated e
 
 ### Slideshows
 - [1. Databases in paleobiology]({{site.baseurl}}/data/paleodiversity/Day3_Emma/01_Databases.pdf)
-- [2. Fossil record biases]({{site.baseurl}}/data/paleodiversity/Day3_Emma/02_Fossil_biases.pdf)
+- [2. Fossil record biases]({{site.baseurl}}/data/paleodiversity/Day3_Emma/02_Fossil_data.pdf)
 - [3. Sampling standardisation]({{site.baseurl}}/data/paleodiversity/Day3_Emma/03_Sampling_standardisation.pdf)
 
 Suggested papers are hyperlinked in the slideshows - any issues accessing them, just email Emma!
