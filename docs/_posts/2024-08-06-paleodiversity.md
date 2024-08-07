@@ -111,14 +111,16 @@ Suggested papers are hyperlinked in the slideshows - any issues accessing them, 
 ## Day 4: Global diversity dynamics 
 with Ádám Kocsis
 
-
-{%comment%}
-# Slides
+# Slides and material
 - [1. Diversity dynamics - conceptual intro]({{site.baseurl}}/data/paleodiversity/Day4_Adam/2023-08-25_divDyn_basics.pdf)
 - [2. divDyn - Practicals]({{site.baseurl}}/data/paleodiversity/Day4_Adam/divDyn_apw2023.html)
-- [3. The coral example](https://evolv-ed.net//articles/2023-06-16_corals_divdyn-2.html)
+- [3. The coral example on Evolv-ED](https://evolv-ed.net//articles/2023-06-16_corals_divdyn-2.html)
+
 
 # PBDB Processing
 - Scripts: [binningCompare.R]({{site.baseurl}}/data/paleodiversity/Day4_Adam/binningCompare.R)
 - Result: [pbdb_processed_2024-07-11.rds](https://www.dropbox.com/scl/fi/h5uw1g8nqrqc0se8f6tjf/pbdb_processed_2024-07-11.rds?rlkey=el5kcxoyhmriccwmykhoa8lcn&st=rni6x0kn&dl=1)
-{%endcomment%}
+
+# Other
+- Requests for the chronosphere (has to be published data): [Form](https://docs.google.com/forms/d/17C85afiCZfAhD83089yOsBzg8mhJz41frQhjz_tNuuc)
+
