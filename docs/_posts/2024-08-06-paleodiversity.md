@@ -112,8 +112,8 @@ Suggested papers are hyperlinked in the slideshows - any issues accessing them, 
 with Ádám Kocsis
 
 # Slides and material
-- [1. Diversity dynamics - conceptual intro]({{site.baseurl}}/data/paleodiversity/Day4_Adam/2023-08-25_divDyn_basics.pdf)
-- [2. divDyn - Practicals]({{site.baseurl}}/data/paleodiversity/Day4_Adam/divDyn_apw2023.html)
+- [1. Diversity dynamics - conceptual intro]({{site.baseurl}}/data/paleodiversity/Day4_Adam/2024-08-08_divDyn_basics.pdf)
+- [2. divDyn - Practicals]({{site.baseurl}}/data/paleodiversity/Day4_Adam/divDyn_apw2024.html)
 - [3. The coral example on Evolv-ED](https://evolv-ed.net//articles/2023-06-16_corals_divdyn-2.html)
 
 
