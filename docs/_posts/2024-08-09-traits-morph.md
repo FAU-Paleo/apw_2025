@@ -36,7 +36,7 @@ Don't worry to much if it looks packed without much coffee breaks, they are desi
 
 ## Content
 
-A link with all the code slides and everything will be available soon!
+Everything is available [here](https://github.com/TGuillerme/Morphological_traits).
 But here's a run down of what we are going to cover:
 
 #### Part 1:
