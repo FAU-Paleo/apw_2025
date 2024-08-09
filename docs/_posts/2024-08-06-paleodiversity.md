@@ -117,7 +117,7 @@ with Ádám Kocsis
 - [3. The coral example on Evolv-ED](https://evolv-ed.net//articles/2023-06-16_corals_divdyn-2.html)
 
 
-# PBDB Processing
+# PBDB Processing (corrected stb top-bottom mixup)
 - Scripts: [binningCompare.R]({{site.baseurl}}/data/paleodiversity/Day4_Adam/binningCompare.R)
 - Result: [pbdb_processed_2024-07-11.rds](https://www.dropbox.com/scl/fi/9xwovh8iyoivloaugi7qs/pbdb_processed_2024-07-11.rds?rlkey=4oep1vvtywm4ukoaekbx3qr77&st=th2qeo0h&dl=1)
 
