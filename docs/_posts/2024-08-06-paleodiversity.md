@@ -119,7 +119,7 @@ with Ádám Kocsis
 
 # PBDB Processing
 - Scripts: [binningCompare.R]({{site.baseurl}}/data/paleodiversity/Day4_Adam/binningCompare.R)
-- Result: [pbdb_processed_2024-07-11.rds](https://www.dropbox.com/scl/fi/h5uw1g8nqrqc0se8f6tjf/pbdb_processed_2024-07-11.rds?rlkey=el5kcxoyhmriccwmykhoa8lcn&st=rni6x0kn&dl=1)
+- Result: [pbdb_processed_2024-07-11.rds](https://www.dropbox.com/scl/fi/9xwovh8iyoivloaugi7qs/pbdb_processed_2024-07-11.rds?rlkey=4oep1vvtywm4ukoaekbx3qr77&st=th2qeo0h&dl=1)
 
 # Other
 - Requests for the chronosphere (has to be published data): [Form](https://docs.google.com/forms/d/17C85afiCZfAhD83089yOsBzg8mhJz41frQhjz_tNuuc)

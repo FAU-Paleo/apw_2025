@@ -265,12 +265,12 @@ StagesFromPBDB<- function(pbdb, stagecolumn="time_contain", min_ma="min_ma", max
 	min <- tapply(INDEX=timeinfo[,stagecolumn], X=timeinfo[, min_ma], min)
 
 	# create stages object
-	stagesDF <- data.frame(stage=names(ma), top=ma, mid=(ma+min)/2, bottom=min)
+	stagesDF <- data.frame(stage=names(ma), bottom=ma, mid=(ma+min)/2, top=min)
 	stagesDF <-stagesDF[order(stagesDF$bottom, decreasing=TRUE),]
 	rownames(stagesDF) <- NULL
 
 	# check consistency - Cambrian is not consistent
-	# stages$bottom[1:(nrow(stages)-1)]==stages$top[2:nrow(stages)]
+	# stages$top[1:(nrow(stages)-1)]==stages$bottom[2:nrow(stages)]
 
 
 	# create integer bin numbers
