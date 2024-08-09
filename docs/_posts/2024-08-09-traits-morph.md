@@ -1,5 +1,5 @@
 ---
-title: "Module 3: Analyses related to morphology"
+title: "Module 2: Morphological diversity & disparity"
 layout: "post" 
 date: 2024-07-04
 permalink: "morphometrics/"
@@ -11,13 +11,16 @@ Welcome to Module 4: Morphology!
 |--------|---------------------------------------------|
 | Aug 09 | **Day 3**: Disparity & traitspace           |
 | Aug 10 | **Day 4**: Phylogenetic comparative methods |
+|        |             + bonus Open science discussion |
 |--------|---------------------------------------------|
 
 <br>
 
 
 
-# Disparity & traitspace: August 9
+# Day 5: Disparity & traitspace
+with Thomas Guillerme (University of Sheffield)
+
 
 ## Schedule
 
@@ -82,3 +85,31 @@ Skills:
 - comparing disparity through time
 - disparity-through-time (dtt) analyses
 - disparity study design
+
+
+ 
+# Phylogenetic comparative methods & Open Science: August 10
+with Thomas Guillerme & Emma Dunne
+
+## Schedule
+
+|-------|-------|-----------------------------------|
+| From  | To    | Details                           |
+|-------|-------|-----------------------------------|
+| 10:00 | 11:00 | Part 1: Intro to PCMs             |
+| 11:00 | 11:15 | **Coffee break**                  |
+| 11:30 | 12:00 | Part 1:  PCMs in R                |
+| 12:00 | 13:00 | **Lunch**                         |
+| 13:00 | 15:00 | Part 2: Best practices in open science    |
+|-------|-------|-----------------------------------|
+
+<br>
+
+#### Purpose
+- Introduction to phylogenetic comparative methods (PCMs)
+- Example analyses in R using bespoke packages
+- Exploration of morphological trait evolution
+
+
+### Code and files
+- [GitHub repo](https://github.com/emmadunne/PCMs)

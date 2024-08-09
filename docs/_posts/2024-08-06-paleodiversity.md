@@ -89,7 +89,7 @@ There are three main topics related to this day and each one has an associated e
 |-------|-------|-----------------------------------|
 
 ### Code and files
-- [GitHub repo](https://github.com/emmadunne/APW_2024)
+- [GitHub repo](https://github.com/emmadunne/palaeodiversity_in_R)
 
 ### Slideshows
 - [1. Databases in paleobiology]({{site.baseurl}}/data/paleodiversity/Day3_Emma/01_Databases.pdf)
