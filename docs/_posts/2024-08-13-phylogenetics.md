@@ -29,7 +29,7 @@ Welcome to Module 4: Phylogenetics!
 
 ### Slides
 - [Introduction to statistical phylogenetics]({{site.baseurl}}/data/phylogenetics/Bayesian_intro.pdf)
-- [Morphological data]({{site.baseurl}}/data/phylogenetics/)
+- [Morphological data]({{site.baseurl}}/data/phylogenetics/morpho.pdf)
 
 ### Exercises
 - [Exercise: the Rev language](https://phylogenetics-fau.netlify.app/exercise-02)
