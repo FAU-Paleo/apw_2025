@@ -34,6 +34,7 @@ Welcome to Module 4: Phylogenetics!
 ### Exercises
 - [Exercise: the Rev language](https://phylogenetics-fau.netlify.app/exercise-02)
 - [Exercise: Bayesian tree inference using RevBayes](https://phylogenetics-fau.netlify.app/exercise-04)
+- [Exercise: Model selection](https://phylogenetics-fau.netlify.app/morpho_exercise)
 - [Exercise: Model adequacy](https://revbayes.github.io/tutorials/pps_morpho/)
 
 ## Day 8
