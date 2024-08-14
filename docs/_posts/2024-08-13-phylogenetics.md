@@ -42,7 +42,7 @@ Welcome to Module 4: Phylogenetics!
 <br>
 
 ### Slides
-- [Phylogenetic dating]()
+- [Phylogenetic dating]({{site.baseurl}}/data/phylogenetics/dating.pdf)
 
 
 ### Exercises
