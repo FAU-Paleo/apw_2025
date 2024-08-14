@@ -46,8 +46,9 @@ Welcome to Module 4: Phylogenetics!
 
 
 ### Exercises
-- [Exercise 5: Simulating under the FBD process](https://phylogenetics-fau.netlify.app/exercise-07a)
-- [Exercise 6: Inference under the FBD process](https://phylogenetics-fau.netlify.app/exercise-07b)
+- [Exercise: Node dating](https://phylogenetics-fau.netlify.app/exercise-05)
+- [Exercise: Simulating under the FBD process](https://phylogenetics-fau.netlify.app/exercise-07a)
+- [Exercise: Inference under the FBD process](https://phylogenetics-fau.netlify.app/exercise-07b)
 
 
 
