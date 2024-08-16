@@ -1,18 +1,49 @@
 ---
-title: "Module 6: Layeranalyzer"
+title: "Module 6: Time series"
 layout: "post" 
 date: 2024-07-04
-permalink: "layeranalyzer/"
+permalink: "timeseries/"
 ---
 
-# Heading
+# Module 6: Time series 
 
-- This is a link to an external file (this one is on Zenodo): [metadata.txt](https://zenodo.org/record/8232301/files/metadata.txt?download=1) 
+Welcome to Module 6: Time series analyses with Layeranalyzer
 
-- This is a link to a file on this page: [other metadata.txt]({{site.baseurl}}/data/6_cmr/metadata.txt)
 
-this is an image:
 
-![The caption of the image]({{site.baseurl}}/images/Icon-SummerSchool-150x150.png)
+| When   | What                    |
+|--------|-------------------------|
+| Aug 17 | **Day 11**: Time series |
+|--------|-------------------------|
+
+<br>
+
+<br>
+
+## Day 11 
+
+<br>
+
+
+## Lecture slides
+
+- [ErlangenLiow5.pdf]({{site.url}}/{{site.baseurl}}/data/timeseries/ErlangenLiow5.pdf)  
+
+## R Code
+
+- [Erlangen Tutorial 4.R]({{site.url}}/{{site.baseurl}}/data/timeseries/Erlangen Tutorial 4.R)
+
+## Data
+
+- [elections-stories-over-time-20210111144254.csv]({{site.url}}/{{site.baseurl}}/data/timeseries/elections-stories-over-time-20210111144254.csv)
+- [Theriot et al 2006 dia.txt]({{site.url}}/{{site.baseurl}}/data/timeseries/Theriot et al 2006 dia.txt)
+- [Theriot et al 2006 ribs.txt]({{site.url}}/{{site.baseurl}}/data/timeseries/Theriot et al 2006 ribs.txt)
+- [Theriot et al 2006 spines.txt]({{site.url}}/{{site.baseurl}}/data/timeseries/Theriot et al 2006 spines.txt)
+
+## Literature
+
+- [Reitan & Liow 2019 Methods in Ecology and Evolution.pdf]({{site.url}}/{{site.baseurl}}/data/timeseries/Reitan & Liow 2019 Methods in Ecology and Evolution.pdf)
+- [Hannisdal and Liow 2018 Palaeontology.pdf]({{site.url}}/{{site.baseurl}}/data/timeseries/Hannisdal and Liow 2018 Palaeontology.pdf)
+- [Voje 2023.pdf]({{site.url}}/{{site.baseurl}}/data/timeseries/Voje 2023.pdf)
 
 
