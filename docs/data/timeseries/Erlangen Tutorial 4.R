@@ -347,6 +347,8 @@ summary(all.single[[3]])
 #analyzer.
 
 load("/Users/leehl/Desktop/FAU 2024/layerdata.RData")
+#or go to https://datadryad.org/stash/dataset/doi:10.5061/dryad.zpc866t6s
+#Data Files and then find layerdata.Rdata
 time$dur=time$Start-time$End
 
 #library(layeranalyzer)
@@ -406,3 +408,4 @@ summary(resp1[[5]])
 # proc.time() - ptm (revised chei.p)
 #user   system  elapsed 
 #6619.008   26.645 6741.832 
+
