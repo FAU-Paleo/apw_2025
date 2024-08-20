@@ -36,7 +36,7 @@ Welcome to Module 8: Paleogeography!
 
 ### Paleo-GIS
 
-- Intro to tectonic models by Liz Dowding
+- [Intro to tectonic models by Liz Dowding]({{site.baseurl}}/data/paleogeography/DowdingAug2024APW.pptx)
 - [3. Tectonic reconstructions with `rgplates`]({{site.baseurl}}/data/paleogeography/3_tectonic_reconstruction.R)
 - [4. Static data products]({{site.baseurl}}/data/paleogeography/4_derived_reconstructions.R)
 - [`rgplates` website](https://gplates.github.io/rgplates/)
