@@ -90,6 +90,28 @@ plot(plates200$geometry, col="gray", border=NA)
 cities200 <- reconstruct(cities, 200, model=mod)
 points(cities200, pch=3, col="red")
 
+# compare Erlangen's past
+ages <- seq(500,0, -50)
+bothSeries <- reconstruct(cities, age=ages)
+bothSeriesMR <- reconstruct(cities, age=ages, model="MULLER2022")
+bothSeriesPM <- reconstruct(cities, age=ages, model="PALEOMAP")
+
+# extract Erlangen's latitude
+erLat<- unlist(lapply(bothSeries, function(x) x["erlangen", 2]))
+erLatMR<- unlist(lapply(bothSeriesMR, function(x) x["erlangen", 2]))
+erLatPM <- unlist(lapply(bothSeriesPM, function(x) x["erlangen", 2]))
+
+library(divDyn)
+data(stages)
+tsplot(stages, boxes="sys",ylim=c(-90,90))
+abline(h=0, lty=2)
+lines(ages, erLat, type="o", pch=16)
+lines(ages, erLatMR, type="o", col="red", pch=16)
+lines(ages, erLatPM, type="o", col="blue", pch=16)
+legend("topleft", legend=c("MERDITH2021", "MULLER2022", "PALEOMAP"), col=c("black","red", "blue"), lwd=1, pch=16)
+
+
+
 # B. PBDB data
 library(divDyn)
 
