@@ -30,7 +30,7 @@ Welcome to Module 8: Paleogeography!
 - [Intro to GIS Slideshow]({{site.baseurl}}/data/paleogeography/2024-08-21_GIS_basics.pdf)
 - [1. Vector examples]({{site.baseurl}}/data/paleogeography/1_vectors.zip)
 - [2. Raster examples]({{site.baseurl}}/data/paleogeography/2_rasters.zip)
-- [`icosa`: 2. Essentials tutorial](https://adamtkocsis.com/icosa/articles/icosa_2_essentials.html)
+- [`icosa`: 2. Essentials tutorial](https://icosa-grid.github.io/R-icosa/articles/icosa_2_essentials.html)
 
 ## Afternoon 
 
