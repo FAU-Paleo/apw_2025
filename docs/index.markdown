@@ -10,6 +10,7 @@ layout: page
 
 Welcome to the Analytical Paleobiology Workshop/School. On this webpage you will find the basic schedule, links to the study material and the exercises. The summer school is sponsored by the [Paleosynthesis Project](http://www.paleosynthesis.de/).
 
+Here is a set of preparatory material: [0. Preparations]({{site.url}}{{site.baseurl}}/prepare/). 
 
 ### Schedule
 
@@ -21,7 +22,7 @@ Welcome to the Analytical Paleobiology Workshop/School. On this webpage you will
 | **Aug. 11-12** | **--Break--**                                       |                                                                                                                                                                                                                                                                   |
 | Aug. 25-26     | 4. Spatial Subsampling and Niche modelling          | [B. Shipley](https://palaeobiology.web.ox.ac.uk/people/benjamin-shipley)                                                                                                                                                                                                         |
 | Aug. 27-28     | 5. Bayesian Phylogenetics                           | [R.  Warnock](https://www.gzn.nat.fau.eu/palaeontologie/team/professors/rachel-warnock/), [L.Mulvey](https://www.seresearch.qmul.ac.uk/cefg/people/lmulvey/)                                                                                |
-| Aug. 29-30     | 6. Analyses related to morphology                   | [R. Felice](https://www.ucl.ac.uk/biosciences/people/felice-ryan)                                                                                                                            |
+| Aug. 29-30     | 6. Analyses related to morphology                   | [R. Felice](https://rnfelice.github.io/index.html)                                                                                                                            |
 | **Aug. 31**    | **--Break--**                                       |                                                                                                                                                                                                                                                                   |
 | Sep. 1-2       | 7. CMR methods                                      | [L. H. Liow](https://leehsiangliow.com/)                                                                                                                                                                                                                          |
 | Sep. 3         | 8. Time series analyses with layeranalyzer          | [L. H. Liow](https://leehsiangliow.com/)                                                                                                                                                                                                                          |
