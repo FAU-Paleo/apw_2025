@@ -1,5 +1,5 @@
 ---
-title: "Module 6: Time series"
+title: "Module 8: Time series"
 layout: "post" 
 date: 2024-09-03
 permalink: "timeseries/"

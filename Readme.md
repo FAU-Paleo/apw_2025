@@ -1,6 +1,6 @@
 # README
 
-Currently built at [https://fau-paleo.github.io/apw_2024/](https://fau-paleo.github.io/apw_2024/). 
+Currently built at [https://fau-paleo.github.io/apw_2025/](https://fau-paleo.github.io/apw_2025/). 
 
 ## About Jekyll
 
@@ -14,7 +14,7 @@ All actual files of the webpage are in the `docs` directory. **You are expected 
 
 | file                         | correspondent(s)  | link                                                                                                         |
 |------------------------------|-------------------|--------------------------------------------------------------------------------------------------------------|
-| 2024-08-01-prepare.md        | Whoever              | [https://fau-paleo.github.io/apw_2025/prepare/](https://fau-paleo.github.io/apw_2025/prepare/)               |
+| 2024-08-01-prepare.md        | Whoever wants to  | [https://fau-paleo.github.io/apw_2025/prepare/](https://fau-paleo.github.io/apw_2025/prepare/)               |
 | 2024-08-18-toolset.md        | Adam              | [https://fau-paleo.github.io/apw_2025/toolset/](https://fau-paleo.github.io/apw_2025/toolset/)               |
 | 2024-08-19-paleodiversity.md | Wolfgang and Adam | [https://fau-paleo.github.io/apw_2025/paleodiversity/](https://fau-paleo.github.io/apw_2025/paleodiversity/) |
 | 2024-08-22-paleogeography.md | Liz and Adam      | [https://fau-paleo.github.io/apw_2025/paleogeography/](https://fau-paleo.github.io/apw_2025/paleogeography/) |
@@ -22,7 +22,7 @@ All actual files of the webpage are in the `docs` directory. **You are expected 
 | 2024-08-27-phylogenetics.md  | Rachel            | [https://fau-paleo.github.io/apw_2025/phylogenetics/](https://fau-paleo.github.io/apw_2025/phylogenetics/)   |
 | 2024-08-29-morphometrics.md  | Ryan              | [https://fau-paleo.github.io/apw_2025/morphometrics/](https://fau-paleo.github.io/apw_2025/morphometrics/)   |
 | 2024-09-01-div-cmr.md        | Lee Hsiang        | [https://fau-paleo.github.io/apw_2025/cmr/](https://fau-paleo.github.io/apw_2025/cmr/)                       |
-| 2024-09-03-layeranalyzer.md  | Lee Hsiang        | [https://fau-paleo.github.io/apw_2025/layeranalyzer/](https://fau-paleo.github.io/apw_2025/layeranalyzer/)   |
+| 2024-09-03-layeranalyzer.md  | Lee Hsiang        | [https://fau-paleo.github.io/apw_2025/timeseries/](https://fau-paleo.github.io/apw_2025/timeseries/)   |
 | 2024-09-04-pyrate.md         | Daniele           | [https://fau-paleo.github.io/apw_2025/pyrate_ai/](https://fau-paleo.github.io/apw_2025/pyrate_ai/)           |
 
 #### Notes

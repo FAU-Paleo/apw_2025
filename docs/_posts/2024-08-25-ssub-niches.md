@@ -1,5 +1,5 @@
 ---
-title: "Module 9: Spatial Subsampling and Ecological Niche Modelling"
+title: "Module 4: Spatial Subsampling and Ecological Niche Modelling"
 layout: "post" 
 permalink: "ssub-niches/"
 date: 2024-08-25

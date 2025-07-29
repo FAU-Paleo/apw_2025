@@ -1,5 +1,5 @@
 ---
-title: "Module 8: Paleogeography"
+title: "Module 3: Paleogeography"
 layout: "post" 
 date: 2024-08-22
 permalink: "paleogeography/"
