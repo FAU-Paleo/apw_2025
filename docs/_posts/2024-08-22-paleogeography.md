@@ -13,7 +13,7 @@ Welcome to Module 8: Paleogeography!
 
 | When   | What                                                                            |
 |--------|---------------------------------------------------------------------------------|
-| Aug 22 | **Day 7**: Introduction GIS in R. Tectonic and Paleogeographic reconstructions |
+| Aug 22 | **Day 5**: Introduction GIS in R. Tectonic and Paleogeographic reconstructions |
 |--------|---------------------------------------------------------------------------------|
 
 <br>

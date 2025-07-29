@@ -8,15 +8,21 @@ layout: page
 
 ### Welcome!
 
-Welcome to the Analytical Paleobiology Workshop/School. On this webpage you will find the basic schedule, links to the study material and the exercises. The summer school is sponsored by the [Paleosynthesis Project](http://www.paleosynthesis.de/).
+Welcome to the website of the Analytical Paleobiology Workshop/School. On this webpage you will find the schedule, links to the study material and the exercises. The summer school is sponsored by the [Paleosynthesis Project](http://www.paleosynthesis.de/).
 
-Here is a set of preparatory material: [0. Preparations]({{site.url}}{{site.baseurl}}/prepare/). 
+### Preparatory material
+
+Here you an find of preparatory material for the workshop: [0. Preparations]({{site.url}}{{site.baseurl}}/prepare/). 
+
+### Code of conduct
+
+You can view the code of conduct [here]({{site.baseurl}}/code_of_conduct/). 
 
 ### Schedule
 
 | Dates          | Module                                              | Instructor(s)                                                                                                                                                                                                                                                     |
 |----------------|-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Aug. 18        | [1. Toolset]({{site.url}}{{site.baseurl}}/toolset/) | [A. Kocsis](https://www.gzn.nat.fau.de/palaeontologie/team/wissenschaftler/kocsis/)                                                                                                                                                                               |
+| Aug. 18        | 1. Toolset | [A. Kocsis](https://www.gzn.nat.fau.de/palaeontologie/team/wissenschaftler/kocsis/)                                                                                                                                                                               |
 | Aug. 19-21     | 2. Basic paleodiversity analyses                    | [W. Kiessling](https://www.gzn.nat.fau.de/palaeontologie/team/professors/kiessling/), [A. Kocsis](https://www.gzn.nat.fau.de/palaeontologie/team/wissenschaftler/kocsis/) |
 | Aug. 22        | 3. Paleogeography                                   | [E. Dowding](https://www.gzn.nat.fau.de/palaeontologie/team/wissenschaftler/elizabeth-dowding/), [A. Kocsis](https://www.gzn.nat.fau.de/palaeontologie/team/wissenschaftler/kocsis/)                                                                              |
 | **Aug. 11-12** | **--Break--**                                       |                                                                                                                                                                                                                                                                   |
@@ -29,6 +35,3 @@ Here is a set of preparatory material: [0. Preparations]({{site.url}}{{site.base
 | Sep. 4-5       | 9. PyRate and AI-based diversity                    | [D. Silvestro](https://bsse.ethz.ch/people/detail-person.MzYwMTE2.TGlzdC8yNjY5LC0xMDExNjczNjI=.html)                                                                                                                                                                                |
 |----------------|-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-### Code of conduct
-
-You can view the code of conduct [here]({{site.baseurl}}/code_of_conduct/). 

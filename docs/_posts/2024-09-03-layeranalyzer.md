@@ -13,7 +13,7 @@ Welcome to Module 6: Time series analyses with Layeranalyzer
 
 | When    | What                    |
 |---------|-------------------------|
-| Sept 03 | **Day 11**: Time series |
+| Sept 03 | **Day 14**: Time series |
 |---------|-------------------------|
 
 <br>

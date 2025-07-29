@@ -13,8 +13,8 @@ Welcome to Module 4: Phylogenetics!
 
 | When   | What                                                                 |
 |--------|----------------------------------------------------------------------|
-| Aug 27 | **Day 7**: Introduction to Bayesian tree inference phylogenetics, model adequacy                                       |
-| Aug 28 | **Day 8**: Dating tree using fossilised birth-death process |
+| Aug 27 | **Day 8**: Introduction to Bayesian tree inference phylogenetics, model adequacy                                       |
+| Aug 28 | **Day 9**: Dating tree using fossilised birth-death process |
 |--------|----------------------------------------------------------------------|
 
 <br>
