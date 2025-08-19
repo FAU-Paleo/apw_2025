@@ -39,7 +39,6 @@ with Wolfgang Kiessling
 - [`Hill_numbers.R`]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/Hill_numbers.R)
 - [`Beta_div.R`]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/Beta_div.R)
 - [`Beta_div_Bangtoupo.R`]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/Beta_div_Bangtoupo.R)
-- [`sqs_Holland.R`]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/sqs_Holland.R)
 
 
 ### Datasets
