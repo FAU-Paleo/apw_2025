@@ -16,8 +16,6 @@ Welcome to Module 5: Phylogenetics!
 | Aug 28 | **Day 9**: Inro to RevBayes, Morphological models and model adequacy |
 |--------|----------------------------------------------------------------------|
 
-<br>
-
 ### Software requirments 
 
 * [BEAST2](https://www.beast2.org)
@@ -32,8 +30,6 @@ Welcome to Module 5: Phylogenetics!
 
 ## Day 8 
 
-<br>
-
 ### Morning 
 
 * Intro in Bayesian phylogenetic inference and MCMC (Joëlle)
@@ -43,6 +39,8 @@ Welcome to Module 5: Phylogenetics!
 ### Afternoon
 * FBD exercise in BEAST (Rachel)
 * Open tutorial session (Rachel, Joëlle, Laura)
+
+<br>
 
 ## Day 9
 
