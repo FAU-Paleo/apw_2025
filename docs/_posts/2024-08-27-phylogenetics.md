@@ -1,20 +1,20 @@
 ---
-title: "Module 5. Phylogenetics "
+title: "Module 5. Bayesian Phylogenetics "
 layout: "post" 
-date: 2024-08-27
+date: 2025-08-27
 permalink: "phylogenetics/"
 ---
 
-# Module 4: Phylogenetics 
+# Module 5: Phylogenetics 
 
-Welcome to Module 4: Phylogenetics! 
+Welcome to Module 5: Phylogenetics! 
 
 
 
 | When   | What                                                                 |
 |--------|----------------------------------------------------------------------|
-| Aug 27 | **Day 8**: Introduction to Bayesian tree inference phylogenetics, model adequacy                                       |
-| Aug 28 | **Day 9**: Dating tree using fossilised birth-death process |
+| Aug 27 | **Day 8**: Intro to Bayesian phylogenetics and BEAST, Dating trees using the fossilised birth-death process |
+| Aug 28 | **Day 9**: Inro to RevBayes, Morphological models and model adequacy |
 |--------|----------------------------------------------------------------------|
 
 <br>
@@ -23,37 +23,30 @@ Welcome to Module 4: Phylogenetics!
 
 <br>
 
-## Day 7 
+## Day 8 
 
 <br>
 
-### Slides
-- [Introduction to statistical phylogenetics]({{site.baseurl}}/data/phylogenetics/Bayesian_intro.pdf)
-- [Morphological data]({{site.baseurl}}/data/phylogenetics/morpho.pdf)
+### Morning 
 
-### Exercises
-- [Exercise: the Rev language](https://phylogenetics-fau.netlify.app/exercise-02)
-- [Exercise: Bayesian tree inference using RevBayes](https://phylogenetics-fau.netlify.app/exercise-04)
-- [Exercise: Model selection](https://phylogenetics-fau.netlify.app/morpho_exercise)
-- [Exercise: Model adequacy](https://revbayes.github.io/tutorials/pps_morpho/)
+* Intro in Bayesian phylogenetic inference and MCMC (Joëlle)
+* The fossilized birth-death process (Laura)
+* FBD model extensions (Joëlle)
 
-## Day 8
+### Afternoon
+* FBD exercise in BEAST (Rachel)
+* Open tutorial session (Rachel, Joëlle, Laura)
 
-<br>
+## Day 9
 
-### Slides
-- [Phylogenetic dating]({{site.baseurl}}/data/phylogenetics/dating.pdf)
+#### Morning
 
+* Intro to RevBayes (Rachel)
+* Morphological models and model adequacy (Laura)
 
-### Exercises
-- [Exercise: Node dating](https://phylogenetics-fau.netlify.app/exercise-05)
-- [Exercise: Simulating under the FBD process](https://phylogenetics-fau.netlify.app/exercise-07a)
-- [Exercise: Inference under the FBD process](https://phylogenetics-fau.netlify.app/exercise-07b)
-
-
-
-
-
-
-
+#### Afternoon
+* Model adequacy exercise (Laura)
+* FBD in RevBayes (demo only) (Joëlle)
+* Research talk (Ruolin Wu)
+* Open tutorial session
 
