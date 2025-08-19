@@ -1,7 +1,7 @@
 ---
 title: "Module 5. Bayesian Phylogenetics "
 layout: "post" 
-date: 2025-08-27
+date: 2024-08-27
 permalink: "phylogenetics/"
 ---
 
