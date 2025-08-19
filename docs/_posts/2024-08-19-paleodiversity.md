@@ -8,12 +8,11 @@ permalink: "paleodiversity/"
 Welcome to Module 2: Paleodiversity Analyses in R! Across these three days, we'll focus on how to analyse biodiversity in deep-time through theoretical introductions, hands-on exercises, and mini-assigments in R. 
 
 
-| When   | What                                                                            |
-|--------|---------------------------------------------------------------------------------|
-| Aug 06 | **Day 2**: Community diversity                                                  |
-| Aug 07 | **Day 3**: Fossil data structure & sampling standardization                     |
-| Aug 08 | **Day 4**: Global diversity dynamics                                            |
-|--------|---------------------------------------------------------------------------------|
+| When      | What                                 |
+|-----------|--------------------------------------|
+| Aug 19-20 | **Day 2-3**: Community diversity     |
+| Aug 21    | **Day 4**: Global diversity dynamics |
+|-----------|--------------------------------------|
 
 <br>
 
@@ -33,84 +32,31 @@ with Wolfgang Kiessling
 
 
 ### Slideshow
-- [Community diversity]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/CommunityDiversity2024.pptx)
+- [Community diversity]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/CommunityDiversity2025.pptx)
 
 ### R code
-- [Alpha_div_new.R]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/Alpha_div_new.R)
-- [Beta_div.R]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/Beta_div.R)
-- [Beta_div_Bangtoupo.R]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/Beta_div_Bangtoupo.R)
-{%comment%}
-- [sqs_Holland.R]({{site.baseurl}}/data/paleodiversity/sqs_Holland.R)
-{%endcomment%}
+- [`Alpha_div_2025.R`]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/Alpha_div_2025.R)
+- [`Hill_numbers.R`]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/Hill_numbers.R)
+- [`Beta_div.R`]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/Beta_div.R)
+- [`Beta_div_Bangtoupo.R`]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/Beta_div_Bangtoupo.R)
+- [`sqs_Holland.R`]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/sqs_Holland.R)
 
 
 ### Datasets
-- [Radiolarians.csv]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/Radiolarians.csv)
-
-{%comment%}
-- [Cassian.csv]({{site.baseurl}}/data/paleodiversity/Cassian.csv)
-- [Triassic_div.csv]({{site.baseurl}}/data/paleodiversity/Triassic_div.csv)
-{%endcomment%}
+- [`Radiolarians.csv`]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/Radiolarians.csv)
 
 
 ### Reading list
-[Click to download]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/ReadingList_Kiessling.docx)
+[Click to download]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/ReadingList_Kiessling.docx)
 
 <br>
 
 
-## Day 3: Fossil data structure & sampling standardization
-with Emma Dunne
 
-<br>
-
-### Content
-
-There are three main topics related to this day and each one has an associated exercise in R:
-
-1. **Databases in Paleobiology** - available databases, futurproofing, accessing the Paleobiology Database and importing datasets into R
-2. **Fossil record data structure** - exploring the impact of heterogeneous data structures (biases) on estimates of diversity through visualisations and simple statistics
-3. **Sampling standardisation** - Rarefaction/Extrapolation curves, coverage-based rarefaction with iNEXT, Shareholder Quorum Subsampling (SQS), and squares
-
-<br>
-
-### Schedule
-
-|-------|-------|-----------------------------------|
-| From  | To    | Details                           |
-|-------|-------|-----------------------------------|
-| 9:15  | 10:30 | Databases in paleobiology         |
-| 10:30 | 10:45 | **Coffee**                        |
-| 10:45 | 12:00 | Fossil record data structure      |
-| 12:00 | 13:30 | **Lunch**                         |
-| 13:30 | 15:00 | Sampling standardisation          |
-| 15:00 | 15:15 | **Coffee**                        |
-| 15:15 | 16:45 | Sampling standardisation cont.    |
-|-------|-------|-----------------------------------|
-
-### Code and files
-- [GitHub repo](https://github.com/emmadunne/palaeodiversity_in_R)
-
-### Slideshows
-- [1. Databases in paleobiology]({{site.baseurl}}/data/paleodiversity/Day3_Emma/01_Databases.pdf)
-- [2. Fossil record data structure]({{site.baseurl}}/data/paleodiversity/Day3_Emma/02_Fossil_data.pdf)
-- [3. Sampling standardisation]({{site.baseurl}}/data/paleodiversity/Day3_Emma/03_Sampling_standardisation.pdf)
-
-Suggested papers are hyperlinked in the slideshows - any issues accessing them, just email me!
-
-### Other useful links
-- [HTML Color Codes](https://htmlcolorcodes.com/)
-- [Geo timescale hex codes](https://github.com/crimeacs/Geochronological_Colors/blob/master/Geochronological_scale_HEX.pdf)
-
-
-<br>
-
-
-- - -
-
-## Day 4: Global diversity dynamics 
+## Day 4: Global diversity dynamics using `divDyn`
 with Ádám Kocsis
 
+{% comment %}
 # Slides and material
 - [1. Diversity dynamics - conceptual intro]({{site.baseurl}}/data/paleodiversity/Day4_Adam/2024-08-08_divDyn_basics.pdf)
 - [2. divDyn - Practicals]({{site.baseurl}}/data/paleodiversity/Day4_Adam/divDyn_apw2024.html)
@@ -124,3 +70,5 @@ with Ádám Kocsis
 # Other
 - Requests for the chronosphere (has to be published data): [Form](https://docs.google.com/forms/d/17C85afiCZfAhD83089yOsBzg8mhJz41frQhjz_tNuuc)
 
+
+{% endcomment %}
