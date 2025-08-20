@@ -48,19 +48,19 @@ Play around with [building your own climate model.](http://www.buildyourownearth
 
 ## Lectures
 
-[Calibration region.](https://www.dropbox.com/scl/fi/bos3v2bgiogc7zh4f0e7w/6.-Calibration-region.pdf?rlkey=gcw9uxdom1w67ktr8ttuk29ta&dl=0)
+[Calibration region.](https://www.dropbox.com/scl/fi/u2rnyfoyn0vvp840560kr/6.-Calibration-region.pptx?rlkey=ibqf85d5b9opfarp1lexzj7tg&st=535vbldb&dl=0)
 
-[ENM Models.](https://www.dropbox.com/scl/fi/wffdu5jeugxkys1cfazhd/7.-ENM-models.pdf?rlkey=m0lxnhj8wl98xy4v04l2xeh6h&dl=0)
+[ENM Models.](https://www.dropbox.com/scl/fi/r1sgj4y6x13qwfriwk1lr/7.-ENM-models.pptx?rlkey=vw0isfocu0qkevfrnihiqb4c8&st=m8ffmkdw&dl=0)
 
-[Evaluation I.](https://www.dropbox.com/scl/fi/e2gclgwvp8brb5f1cxrrc/8.-Evaluation-I.pdf?rlkey=5hqaaaxytxc62zcscxn1anr2c&dl=0)
+[Evaluation I.](https://www.dropbox.com/scl/fi/p8vhxpwh3sko886allhgg/8.-Evaluation-I.pptx?rlkey=1gls50s2q2c84uqqu54002fbb&st=soj23mlr&dl=0)
 
-[Evaluation II.](https://www.dropbox.com/scl/fi/7kygthe9o284a7gx9lfbs/9.-Evaluation-II.pdf?rlkey=sqgn5pd6rwali0zjfk3i79jd0&dl=0)
+[Evaluation II.](https://www.dropbox.com/scl/fi/kfsagpj5ctzgaeo0ixs2m/9.-Evaluation-II.pptx?rlkey=uj3t9k9kdr343ceom4gjcwbru&st=54shqqja&dl=0)
 
-[Model Transfer & Extrapolation.](https://www.dropbox.com/scl/fi/gdka87nmcrvlnqrtss3kg/10.-Model-transfer-extrapolation.pdf?rlkey=ehttm1628qynyz6z6chb0nqqs&dl=0)
+[Model Transfer & Extrapolation.](https://www.dropbox.com/scl/fi/r12vimfl5vwzeyvvelunf/10.-Model-transfer-extrapolation.pptx?rlkey=ghgbdh3n2qfnem0olrmpibhd2&st=mgizvz6d&dl=0)
 
-[Niche Comparisons.](https://www.dropbox.com/scl/fi/yup80omm3jasluwstd0fs/11.-Niche-comparisons.pdf?rlkey=oi9rbu45r18n0v5tuakqucapx&dl=0) 
+[Niche Comparisons.](https://www.dropbox.com/scl/fi/ggnoowk4gh8hvrc77thvb/11.-Niche-comparisons.pptx?rlkey=rqj9nd61jvt9z9j1xq4yeyvmk&st=ee15pp1c&dl=0) 
 
-[Analysis Software.](https://www.dropbox.com/scl/fi/b9813wwy1euk387gj055d/12.-Analysis-Packages.pdf?rlkey=4xrmxr9jva4z3jpei0v37lii3&dl=0)
+[Analysis Software.](https://www.dropbox.com/scl/fi/0vddz9dq33bv1ax2ifjd5/12.-Analysis-Packages.pptx?rlkey=2m6bh8pdrjy3p9wpofbmhleue&st=cngxyw2p&dl=0)
 
 ## Practicals
 
