@@ -6,23 +6,23 @@ date: 2024-08-25
 ---
 
 # Schedule
-[Niche Modelling Schedule.](https://www.dropbox.com/scl/fi/w6ice5siefp81j4wh69jo/Schedule_ENM_Workshop_2025.pdf?rlkey=je2f4qpdghgg9u1vruy7s0otq&st=wlg8xww3&dl=0)
+[Niche Modelling Schedule.](https://www.dropbox.com/scl/fi/0cuq5dqwq0km6glhos9uf/Schedule_ENM_Workshop_2025.pdf?rlkey=d9sb9ofd7wwi25phnp2ffje5b&st=751c7cjp&dl=0)
 
 # Day 1
 
 ## Lectures
 
-[Spatial Subsampling.](https://www.dropbox.com/scl/fi/6jr2qtv31o7io7l4brgix/0.-Spatially-standardized-subsampling.pptx?rlkey=tv27oktz5wke3qsdl85mu1pzv&st=wkxzw206&dl=0)
+[Spatial Subsampling.](https://www.dropbox.com/scl/fi/dya70sl1y06tspgkjjm62/0.-Spatially-standardized-subsampling.pptx?rlkey=nu10y06lzfdzlckxvr3u4nm02&st=mo770lkw&dl=0)
 
-[Why ENM?.](https://www.dropbox.com/scl/fi/90kjkmnxwp7rqvcw7h6op/1.-Why-ENM.pptx?rlkey=5mhxqdsjx1wg2m2qlwnq5dvrv&st=hqhqh2w7&dl=0)
+[Why ENM?.](https://www.dropbox.com/scl/fi/wm7358sch6lg4myjxw16o/1.-Why-ENM.pptx?rlkey=4w9xgamcpjyhobs8rj52bg51l&st=va0nfr4h&dl=0)
 
-[ENM Theory.](https://www.dropbox.com/scl/fi/u6puljcn2vnbkjp728vwg/2.-ENM-Theory.pptx?rlkey=1wgvwxtopfdgynpto1vg2y5ha&st=khod4wku&dl=0)
+[ENM Theory.](https://www.dropbox.com/scl/fi/25g4gogshm0570r5rn2qu/2.-ENM-Theory.pptx?rlkey=07z9d190o07is5ze97up0vxa7&st=jph64w1n&dl=0)
 
-[Occurrence Data I.](https://www.dropbox.com/scl/fi/vl3tovog1k9uijorqchfg/3.-Occurrence-data-I.pptx?rlkey=q8vswq9kse38glq5oocme3vmy&st=h5qnwrtg&dl=0)
+[Occurrence Data I.](https://www.dropbox.com/scl/fi/jz650d2h9mc1q02nuvuvj/3.-Occurrence-data-I.pptx?rlkey=067o0lain7wnjjaoeg3g0gga9&st=ka7c02uk&dl=0)
 
-[Occurrence Data II.](https://www.dropbox.com/scl/fi/1vovadtdu6t85gvo4q135/4.-Occurrence-data-II.pptx?rlkey=ln019w2d2z8obffmkcn6tmuxs&st=a6gf2ubg&dl=0)
+[Occurrence Data II.](https://www.dropbox.com/scl/fi/iohi91xy27yzt2dr4niai/4.-Occurrence-data-II.pptx?rlkey=k5s93tu0ervobpxecut4vp4gw&st=4zjux7b8&dl=0)
 
-[Climate Data.](https://www.dropbox.com/scl/fi/99ginhvttnsm06kr2jo4k/5.-Climate-Data.pptx?rlkey=s960423ed98b9fpb1fk69b38k&st=n29rykmi&dl=0)
+[Climate Data.](https://www.dropbox.com/scl/fi/ry0j5yzln8q90sfdvu5kr/5.-Climate-Data.pptx?rlkey=e1m8nulraebwt746qzjrhxby5&st=7nsticz1&dl=0)
 
 ## Practicals
 
@@ -34,11 +34,11 @@ Then work through the [divvy vignette.](https://www.dropbox.com/scl/fo/mu7ouuaei
 
 ### Filtering occurrences
 
-Start with [R script 1.: Filter Geographically](https://www.dropbox.com/scl/fi/mqnnsj46vt3p5amjg8o95/1.-FilterGeographically.R?rlkey=xn37n6ipinpszrtw2kzlr14lg&st=7qq0h05y&dl=0)
+Start with [R script 1.: Filter Geographically](https://www.dropbox.com/scl/fi/g59o9c3bv2ghaehx9dxyf/1.-FilterGeographically.R?rlkey=dvwme6qm6u8veuvfp737jjnz4&st=dioqijpw&dl=0)
 
-Then do [R script 2.: Filter Environmentally](https://www.dropbox.com/scl/fi/k0g12mqi8w5m0lb9w0ezn/2.-FilterEnvironmentally.R?rlkey=x1gx0ud1zi770c7d23g32j99j&st=lzmpxle2&dl=0)
+Then do [R script 2.: Filter Environmentally](https://www.dropbox.com/scl/fi/rayh9gwfwmd83n6xbajvz/2.-FilterEnvironmentally.R?rlkey=23c14ixw4xne66ar2rq3204vy&st=065gdufs&dl=0)
 
-R script 2 requires this [environmental data.](https://www.dropbox.com/scl/fo/koow0nvzlxs0e6gk8mpvy/ANq3qmMy3rsGdlzJoPXRBxU?rlkey=wi58eb4bnr17dqzmwhll67hqm&st=gjeg9fmw&dl=0) 
+R script 2 requires this [environmental data.](https://www.dropbox.com/scl/fo/koow0nvzlxs0e6gk8mpvy/ANq3qmMy3rsGdlzJoPXRBxU?rlkey=wi58eb4bnr17dqzmwhll67hqm&st=h7s1094z&dl=0) 
 
 ### Build your own climate model 
 
