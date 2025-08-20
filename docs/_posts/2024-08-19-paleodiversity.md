@@ -1,7 +1,7 @@
 ---
 title: "Module 2: Paleodiversity Analyses in R"
 layout: "post" 
-date: 2024-08-19
+date: 2025-08-19
 permalink: "paleodiversity/"
 ---
 
@@ -80,19 +80,20 @@ with Wolfgang Kiessling
 ## Day 4: Global diversity dynamics using `divDyn`
 with Ádám Kocsis
 
-{% comment %}
-# Slides and material
-- [1. Diversity dynamics - conceptual intro]({{site.baseurl}}/data/paleodiversity/Day4_Adam/2024-08-08_divDyn_basics.pdf)
-- [2. divDyn - Practicals]({{site.baseurl}}/data/paleodiversity/Day4_Adam/divDyn_apw2024.html)
+
+# Material
+- [0. Subsampling again (`subsampling.R`)]({{site.baseurl}}/data/paleodiversity/Day4_Adam/subsampling.R)
+- [1. Diversity dynamics - again!]({{site.baseurl}}/data/paleodiversity/Day4_Adam/2025-08-20_divDyn_basics.pdf)
+- [2. divDyn - Practicals]({{site.baseurl}}/data/paleodiversity/Day4_Adam/divDyn_apw2025.html)
 - [3. The coral example on Evolv-ED](https://evolv-ed.net//articles/2023-06-16_corals_divdyn-2.html)
 
 
-# PBDB Processing (corrected stb top-bottom mixup)
+# Additional
+
 - Scripts: [binningCompare.R]({{site.baseurl}}/data/paleodiversity/Day4_Adam/binningCompare.R)
-- Result: [pbdb_processed_2024-07-11.rds](https://www.dropbox.com/scl/fi/9xwovh8iyoivloaugi7qs/pbdb_processed_2024-07-11.rds?rlkey=4oep1vvtywm4ukoaekbx3qr77&st=th2qeo0h&dl=1)
+- Result: [`pbdb_processed_2025-08-19.rds`](https://www.dropbox.com/scl/fi/w6qec7l7kheb4vntfj649/pbdb_processed_2025-08-19.rds?rlkey=q4gmaqczvsiojctn9nqgjwrm7&st=ww09txjw&dl=1)
 
 # Other
 - Requests for the chronosphere (has to be published data): [Form](https://docs.google.com/forms/d/17C85afiCZfAhD83089yOsBzg8mhJz41frQhjz_tNuuc)
 
 
-{% endcomment %}

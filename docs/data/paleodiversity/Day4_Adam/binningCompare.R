@@ -1,6 +1,6 @@
 # Compare two different stage-level binning schemes and write out data.
 # Adam Kocsis
-# 2024-08-02
+# 2025-08-19
 
 library(divDyn)
 library(chronosphere)
@@ -9,10 +9,10 @@ data(stages)
 
 # Data download with explicit version
 # newer versions don't work with stb binning  
-dat <- fetch("pbdb", ver="20240711")
+dat <- fetch("pbdb", ver="20250819")
 
 # filter records not identified at least to genus
-dat <-dat[dat$accepted_rank %in% c("genus", "species"),]
+dat <-dat[dat$accepted_rank %in% c("genus", "species", "subgenus", "subspecies"),]
 
 # omit non-informative genus entries
 dat <- dat[dat$genus!="", ]
@@ -323,7 +323,7 @@ colnames(stbFields)[1:4] <- paste0("stb_",colnames(stbFields)[1:4])
 datMerged <- merge(datMerged,stbFields, by="stb")
 
 # save file
-saveRDS(datMerged, file="pbdb_processed_2024-07-11.rds")
+saveRDS(datMerged, file="pbdb_processed_stb_2025-08-19.rds")
 
 ################################################################################
 # Comparison of the two solutions (number of records)
