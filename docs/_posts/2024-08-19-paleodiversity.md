@@ -8,11 +8,11 @@ permalink: "paleodiversity/"
 Welcome to Module 2: Paleodiversity Analyses in R! Across these three days, we'll focus on how to analyse biodiversity in deep-time through theoretical introductions, hands-on exercises, and mini-assigments in R. 
 
 
-| When      | What                                 |
-|-----------|--------------------------------------|
-| Aug 19-20 | **Day 2-3**: Community diversity     |
-| Aug 21    | **Day 4**: Global diversity dynamics |
-|-----------|--------------------------------------|
+| When      | What                           |
+|-----------|--------------------------------|
+| Aug 19    | **Day 2**: Community diversity |
+| Aug 20-21 | **Day 3-4**: Global diversity  |
+|-----------|--------------------------------|
 
 <br>
 
