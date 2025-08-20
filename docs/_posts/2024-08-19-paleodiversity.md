@@ -23,7 +23,6 @@ Welcome to Module 2: Paleodiversity Analyses in R! Across these three days, we'l
 ## Day 2: Community diversity
 with Wolfgang Kiessling
 
-<br>
 
 #### Purpose
 - Introduction to paleodiversity analyses (theory)
@@ -32,14 +31,15 @@ with Wolfgang Kiessling
 
 
 ### Slideshow
-- [Community diversity]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/CommunityDiversity2025.pptx)
+- [Community diversity]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/CommunityDiversity2025.pptx)
 
 ### R code
-- [`Alpha_div_2025.R`]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/Alpha_div_2025.R)
-- [`Hill_numbers.R`]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/Hill_numbers.R)
-- [`Beta_div.R`]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/Beta_div.R)
-- [`Beta_div_Bangtoupo.R`]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/Beta_div_Bangtoupo.R)
-
+- [`Alpha_div_2025.R`]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/Alpha_div_2025.R)
+- [`Hill_numbers.R`]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/Hill_numbers.R)
+- [`Beta_div.R`]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/Beta_div.R)
+- [`sqs_Holland.R`]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/sqs_Holland.R)
+- [`Beta_div_Bangtoupo.R`]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/Beta_div_Bangtoupo.R)
+- [`Beta_div_Bangtoupo_lecturer.R` (lecturer code)]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/Beta_div_Bangtoupo_lecturer.R)
 
 ### Datasets
 - [`Radiolarians.csv`]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/Radiolarians.csv)
@@ -47,6 +47,31 @@ with Wolfgang Kiessling
 
 ### Reading list
 [Click to download]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/ReadingList_Kiessling.docx)
+
+<br>
+
+## Day 3: Global diversity
+with Wolfgang Kiessling
+
+
+
+### Slideshow
+- [Global diversity]({{site.baseurl}}/data/paleodiversity/Day3_Wolfgang/GlobalDiversity2025.pptx)
+
+### Demo sheet
+- [FooteMetrics.xls]({{site.baseurl}}/data/paleodiversity/Day3_Wolfgang/FooteMetrics.xls)
+
+### R code
+- [`ThreeFaunas_new.R`]({{site.baseurl}}/data/paleodiversity/Day3_Wolfgang/ThreeFaunas_new.R)
+- [`Sepkoski.R`]({{site.baseurl}}/data/paleodiversity/Day3_Wolfgang/Sepkoski.R)
+
+
+### Datasets
+- [`Gen_link2.csv`]({{site.baseurl}}/data/paleodiversity/Day3_Wolfgang/Gen_link2.csv)
+- [`ThreeFaunas.csv`]({{site.baseurl}}/data/paleodiversity/Day3_Wolfgang/ThreeFaunas.csv)
+- [`Stage_sepk.CSV`]({{site.baseurl}}/data/paleodiversity/Day3_Wolfgang/Stage_sepk.CSV)
+
+
 
 <br>
 
