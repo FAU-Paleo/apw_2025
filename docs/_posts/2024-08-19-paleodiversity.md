@@ -42,11 +42,11 @@ with Wolfgang Kiessling
 - [`Beta_div_Bangtoupo_lecturer.R` (lecturer code)]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/Beta_div_Bangtoupo_lecturer.R)
 
 ### Datasets
-- [`Radiolarians.csv`]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/Radiolarians.csv)
+- [`Radiolarians.csv`]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/Radiolarians.csv)
 
 
 ### Reading list
-[Click to download]({{site.baseurl}}/data/paleodiversity/Day2-3_Wolfgang/ReadingList_Kiessling.docx)
+[Click to download]({{site.baseurl}}/data/paleodiversity/Day2_Wolfgang/ReadingList_Kiessling.docx)
 
 <br>
 
