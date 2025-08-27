@@ -37,7 +37,7 @@ Welcome to Module 5: Phylogenetics!
 * [FBD model extensions]({{site.baseurl}}/data/phylogenetics/S3_JBS_FBD_extensions_short.pdf) (Joëlle)
 
 ### Afternoon
-* [Brief intro to the BEAST2 pipeline]({{site.baseurl}}/data/phylogenetics/S4_RW_FBD_tutorial) (Rachel)
+* [Brief intro to the BEAST2 pipeline]({{site.baseurl}}/data/phylogenetics/S4_RW_FBD_tutorial.pdf) (Rachel)
 * Tutorial: [FBD exercise in BEAST](https://taming-the-beast.org/tutorials/FBD-tutorial/) 
 * Open tutorial session (Rachel, Joëlle, Laura)
 	* [Total-evidence dating](https://taming-the-beast.org/tutorials/Total-Evidence-Tutorial/)
