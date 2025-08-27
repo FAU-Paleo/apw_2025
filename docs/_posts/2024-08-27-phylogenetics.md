@@ -32,9 +32,9 @@ Welcome to Module 5: Phylogenetics!
 
 ### Morning 
 
-* Intro in Bayesian phylogenetic inference and MCMC (Joëlle)
-* The fossilized birth-death process (Laura)
-* FBD model extensions (Joëlle)
+* [Intro in Bayesian phylogenetic inference and MCMC]({{site.baseurl}}/data/phylogenetics/S1_JBS_Bayesian_inference_short.pdf) (Joëlle) 
+* [The fossilized birth-death process]({{site.baseurl}}/data/phylogenetics/S2_LM_FBD.pdf) (Laura)
+* [FBD model extensions]({{site.baseurl}}/data/phylogenetics/S3_JBS_FBD_extensions_short.pdf) (Joëlle)
 
 ### Afternoon
 * FBD exercise in BEAST (Rachel)
