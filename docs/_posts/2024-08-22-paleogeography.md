@@ -32,6 +32,7 @@ Welcome to Module 8: Paleogeography!
 - [2. Raster examples]({{site.baseurl}}/data/paleogeography/2_rasters.zip)
 - [3. Icosahedral gridding]({{site.baseurl}}/data/paleogeography/3_icosa.zip)
 
+The snipped written to calculate species richness from IUCN chameleon data:  [`chameleon_richness.R`]({{site.baseurl}}/data/paleogeography/chameleon_richness.R)
 
 ## Afternoon 
 

@@ -82,9 +82,9 @@ with Ádám Kocsis
 
 
 # Material
-- [0. Subsampling again (`subsampling.R`)]({{site.baseurl}}/data/paleodiversity/Day4_Adam/subsampling.R)
+- [0. Subsampling again (`subsampling.R`)]({{site.baseurl}}/data/paleodiversity/Day4_Adam/subsampling.R) - Script written during lecture: [(`subsampling_adam.R`)]({{site.baseurl}}/data/paleodiversity/Day4_Adam/subsampling_adam.R)
 - [1. Diversity dynamics - again!]({{site.baseurl}}/data/paleodiversity/Day4_Adam/2025-08-20_divDyn_basics.pdf)
-- [2. divDyn - Practicals]({{site.baseurl}}/data/paleodiversity/Day4_Adam/divDyn_apw2025.html)
+- [2. divDyn - Practicals]({{site.baseurl}}/data/paleodiversity/Day4_Adam/divDyn_apw2025.html) - Script written during lecture: [(`divDyn_adam.R`)]({{site.baseurl}}/data/paleodiversity/Day4_Adam/divDyn_adam.R)
 - [3. The coral example on Evolv-ED](https://evolv-ed.net//articles/2023-06-16_corals_divdyn-2.html)
 
 
