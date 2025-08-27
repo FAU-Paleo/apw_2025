@@ -42,7 +42,7 @@ Welcome to Module 5: Phylogenetics!
 	* [Total-evidence dating](https://taming-the-beast.org/tutorials/Total-Evidence-Tutorial/)
 	* [BDMMPrime for Macroevolution](https://taming-the-beast.org/tutorials/BDMM-Prime-for-macroevolution/)
 	* [Skyline analyses for macroevolution](https://taming-the-beast.org/tutorials/Skyline-analyses-for-macroevolution/)
-	* Or any other tutorials you fancy on the [Taming the BEAST](https://taming-the-beast.org/tutorials/) website
+	* Or any other tutorial you fancy on the [Taming the BEAST](https://taming-the-beast.org/tutorials/) website
 
 <br>
 
