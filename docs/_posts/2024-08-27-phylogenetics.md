@@ -51,7 +51,9 @@ Welcome to Module 5: Phylogenetics!
 
 #### Morning
 
-* Intro to RevBayes (Rachel)
+* [Bayesian inference using RevBayes]({{site.baseurl}}/data/phylogenetics/S5_Intro_to_RevBayes.pdf) (Rachel)
+* Tutorial: [Intro to the Rev language](https://phylogenetics-fau.netlify.app/exercise-03)
+* Tutorial: [Tree inference using RevBayes](https://phylogenetics-fau.netlify.app/exercise-04)
 * Morphological models and model adequacy (Laura)
 
 #### Afternoon
