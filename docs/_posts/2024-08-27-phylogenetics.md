@@ -37,8 +37,12 @@ Welcome to Module 5: Phylogenetics!
 * [FBD model extensions]({{site.baseurl}}/data/phylogenetics/S3_JBS_FBD_extensions_short.pdf) (Joëlle)
 
 ### Afternoon
-* FBD exercise in BEAST (Rachel)
+* [FBD exercise in BEAST](https://taming-the-beast.org/tutorials/FBD-tutorial/) (Rachel)
 * Open tutorial session (Rachel, Joëlle, Laura)
+	* [Total-evidence dating](https://taming-the-beast.org/tutorials/Total-Evidence-Tutorial/)
+	* [BDMMPrime for Macroevolution](https://taming-the-beast.org/tutorials/BDMM-Prime-for-macroevolution/)
+	* [Skyline analyses for macroevolution](https://taming-the-beast.org/tutorials/Skyline-analyses-for-macroevolution/)
+	* Or any other tutorials you fancy on the [Taming the BEAST](https://taming-the-beast.org/tutorials/) website
 
 <br>
 
