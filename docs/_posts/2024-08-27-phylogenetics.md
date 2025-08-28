@@ -54,11 +54,12 @@ Welcome to Module 5: Phylogenetics!
 * [Bayesian inference using RevBayes]({{site.baseurl}}/data/phylogenetics/S5_Intro_to_RevBayes.pdf) (Rachel)
 * Tutorial: [Intro to the Rev language](https://phylogenetics-fau.netlify.app/exercise-03)
 * Tutorial: [Tree inference using RevBayes](https://phylogenetics-fau.netlify.app/exercise-04)
-* Morphological models and model adequacy (Laura)
+* FBD in RevBayes (demo only) (Joëlle)
 
 #### Afternoon
-* Model adequacy exercise (Laura)
-* FBD in RevBayes (demo only) (Joëlle)
+
+* [Morphological models and model adequacy]({{site.baseurl}}/data/phylogenetics/S6_LM_Model_Adequacy.pdf) (Laura)
+* Tutorial: [Model adequacy using RevBayes](https://revbayes.github.io/tutorials/pps_morpho/) (Laura) 
 * Research talk (Ruolin Wu)
 * Open tutorial session
 
