@@ -35,7 +35,7 @@ Welcome to Module 8: Geometric Morphometrics! Across these two days, we'll focus
 - [3. Conduct Ellipitcal Fourier Analysis]({{site.baseurl}}/data/morphometrics/exercises/3_Ellipitcal_Fourier.pdf)
 - [3. Analyze EFA Data]({{site.baseurl}}/data/morphometrics/exercises/4_%20Analyzing_Outline_Data.pdf)
 - [5. Morphospace: Exploring your data]({{site.baseurl}}/data/morphometrics/exercises/5_Morphospace_plots.pdf)
-- [6. Practice and Synthesis]({{site.baseurl}}/data/morphometrics/exercises/5_Practicing_with_3D_Landmark_Data.pdf)
+- [6. Practice and Synthesis]({{site.baseurl}}/data/morphometrics/exercises/6_Practicing_with_3D_Landmark_Data.pdf)
 
 ### Data Files
 
