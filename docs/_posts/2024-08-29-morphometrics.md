@@ -50,6 +50,7 @@ Welcome to Module 8: Geometric Morphometrics! Across these two days, we'll focus
 - [3D landmarks on crocs]({{site.baseurl}}/data/morphometrics/Data/crocs.csv)
 - [ecology and taxonomy data for crocs]({{site.baseurl}}/data/morphometrics/Data/croc_ecology_data.csv)
 - [Mammal Skull Images]({{site.baseurl}}/data/morphometrics/Mustelidae_skulls/mustelid_skulls.zip)
+- [Belemnite Hook Images]({{site.baseurl}}/data/morphometrics/Data/BelemniteHooks.zip)
 
 ### R Functions
 
