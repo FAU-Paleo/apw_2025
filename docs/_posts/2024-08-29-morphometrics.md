@@ -49,6 +49,7 @@ Welcome to Module 8: Geometric Morphometrics! Across these two days, we'll focus
 - [Landmark IDs for mammal 3D data]({{site.baseurl}}/data/morphometrics/Data/mammal_3d_fixed_points.csv)
 - [3D landmarks on crocs]({{site.baseurl}}/data/morphometrics/Data/crocs.csv)
 - [ecology and taxonomy data for crocs]({{site.baseurl}}/data/morphometrics/Data/croc_ecology_data.csv)
+- [Mammal Skull Images]({{site.baseurl}}/data/morphometrics/Mustelidae_skulls/mustelid_skulls.zip)
 
 ### R Functions
 
