@@ -53,5 +53,5 @@ Welcome to Module 8: Geometric Morphometrics! Across these two days, we'll focus
 ### R Functions
 
 - [MorphoFiles_Function.r]({{site.baseurl}}/data/morphometrics/utility_functions/MorphoFiles_Function.r)
-- [MorphometricExtraction_Functions.r]({{site.baseurl}}/data/morphometrics/Data/MorphometricExtraction_Functions.r)
-- [OutlineAnalysis_Functions.r]({{site.baseurl}}/data/morphometrics/Data/OutlineAnalysis_Functions.r)
+- [MorphometricExtraction_Functions.r]({{site.baseurl}}/data/morphometrics/utility_functions/MorphometricExtraction_Functions.r)
+- [OutlineAnalysis_Functions.r]({{site.baseurl}}/data/morphometrics/utility_functions/OutlineAnalysis_Functions.r)
