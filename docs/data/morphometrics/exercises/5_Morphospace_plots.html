@@ -3309,41 +3309,101 @@ DONE.</code></pre>
 <li><p>calculating the % variance explained by each PC axis so we can add that to the axis labels</p></li>
 <li><p>We need a way to tell R how far apart to place the grids that represent time periods. We have a vector, <code>eco_dat$time</code>, that lists the time bin in which each species lived. We need to change these to equally spaced numerical bins that will become the z-axis values for the plot.</p></li>
 </ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>PCA_summary<span class="ot">&lt;-</span><span class="fu">invisible</span>(<span class="fu">summary</span>(PCA))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Ordination type: Principal Component Analysis 
+Centering by OLS mean
+Orthogonal projection of OLS residuals
+Number of observations: 43 
+Number of vectors 42 
+
+Importance of Components:
+                            Comp1       Comp2       Comp3       Comp4
+Eigenvalues            0.01863466 0.004560141 0.002363625 0.001798776
+Proportion of Variance 0.48157394 0.117847348 0.061082951 0.046485627
+Cumulative Proportion  0.48157394 0.599421285 0.660504236 0.706989863
+                             Comp5      Comp6        Comp7        Comp8
+Eigenvalues            0.001503002 0.00105661 0.0008890967 0.0007642375
+Proportion of Variance 0.038841957 0.02730589 0.0229768510 0.0197501259
+Cumulative Proportion  0.745831819 0.77313771 0.7961145639 0.8158646898
+                             Comp9       Comp10       Comp11       Comp12
+Eigenvalues            0.000690656 0.0006627848 0.0005826994 0.0005479097
+Proportion of Variance 0.017848564 0.0171282911 0.0150586522 0.0141595852
+Cumulative Proportion  0.833713254 0.8508415449 0.8659001971 0.8800597823
+                             Comp13       Comp14       Comp15       Comp16
+Eigenvalues            0.0004476335 0.0004215015 0.0003661049 0.0003399192
+Proportion of Variance 0.0115681536 0.0108928264 0.0094612179 0.0087845023
+Cumulative Proportion  0.8916279358 0.9025207622 0.9119819801 0.9207664824
+                             Comp17       Comp18      Comp19       Comp20
+Eigenvalues            0.0002878028 0.0002708908 0.000245226 0.0002297029
+Proportion of Variance 0.0074376629 0.0070006089 0.006337354 0.0059361919
+Cumulative Proportion  0.9282041453 0.9352047542 0.941542108 0.9474783002
+                            Comp21       Comp22       Comp23       Comp24
+Eigenvalues            0.000220447 0.0001809923 0.0001791846 0.0001552528
+Proportion of Variance 0.005696993 0.0046773698 0.0046306526 0.0040121846
+Cumulative Proportion  0.953175293 0.9578526632 0.9624833158 0.9664955004
+                             Comp25       Comp26       Comp27       Comp28
+Eigenvalues            0.0001454897 0.0001343652 0.0001206231 0.0001176935
+Proportion of Variance 0.0037598775 0.0034723885 0.0031172529 0.0030415433
+Cumulative Proportion  0.9702553779 0.9737277664 0.9768450193 0.9798865626
+                             Comp29       Comp30       Comp31       Comp32
+Eigenvalues            0.0001023449 8.575332e-05 8.469609e-05 7.284477e-05
+Proportion of Variance 0.0026448907 2.216116e-03 2.188794e-03 1.882521e-03
+Cumulative Proportion  0.9825314533 9.847476e-01 9.869364e-01 9.888189e-01
+                             Comp33       Comp34       Comp35       Comp36
+Eigenvalues            0.0000659296 6.345064e-05 5.404416e-05 0.0000490079
+Proportion of Variance 0.0017038131 1.639750e-03 1.396659e-03 0.0012665069
+Cumulative Proportion  0.9905226975 9.921624e-01 9.935591e-01 0.9948256126
+                             Comp37       Comp38       Comp39       Comp40
+Eigenvalues            4.711339e-05 4.190097e-05 3.529723e-05 2.894756e-05
+Proportion of Variance 1.217547e-03 1.082843e-03 9.121833e-04 7.480893e-04
+Cumulative Proportion  9.960432e-01 9.971260e-01 9.980382e-01 9.987863e-01
+                             Comp41       Comp42
+Eigenvalues            2.814711e-05 1.881835e-05
+Proportion of Variance 7.274033e-04 4.863210e-04
+Cumulative Proportion  9.995137e-01 1.000000e+00</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>time_period<span class="ot">&lt;-</span><span class="fu">as.factor</span>(eco_dat<span class="sc">$</span>time)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="fu">levels</span>(time_period)<span class="ot">&lt;-</span><span class="fu">c</span>(<span class="dv">40</span>,<span class="dv">20</span>,<span class="dv">0</span>,<span class="dv">60</span>)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>time_period2<span class="ot">&lt;-</span><span class="fu">as.numeric</span>(<span class="fu">as.character</span>(time_period))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <p>Now we can build the plot</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">#stacked morphospace</span></span>
-<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="ot">&lt;-</span><span class="fu">scatterplot3d</span>(<span class="at">x =</span> PCA<span class="sc">$</span>x[,<span class="dv">1</span>], <span class="co">#PC axis 1 scores</span></span>
-<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>                       <span class="at">y =</span> PCA<span class="sc">$</span>x[,<span class="dv">2</span>], <span class="co">#PC axis 2 scores</span></span>
-<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>                       <span class="at">z =</span> time_period2, <span class="co">#time bins</span></span>
-<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>                       <span class="at">pch =</span><span class="dv">19</span>, <span class="co">#shape of the points</span></span>
-<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>                       <span class="at">angle =</span> <span class="dv">10</span>,</span>
-<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>                       <span class="at">color=</span>habitat_colors, <span class="co">#color the points</span></span>
-<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>                       <span class="at">z.ticklabs=</span><span class="fu">c</span>(<span class="st">&quot;Jurassic&quot;</span>,</span>
-<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;&quot;</span>,</span>
-<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;Cretaceous&quot;</span>,</span>
-<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;&quot;</span>,</span>
-<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;Cenozoic&quot;</span>,</span>
-<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;&quot;</span>,</span>
-<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;Modern&quot;</span>),</span>
-<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>                       <span class="at">xlab=</span><span class="fu">paste0</span>(<span class="st">&quot;PC Axis 1 (&quot;</span>,</span>
-<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>                                   <span class="fu">signif</span>(PCA_summary<span class="sc">$</span>PC.summary[<span class="dv">2</span>,<span class="dv">1</span>],<span class="dv">3</span>)<span class="sc">*</span><span class="dv">100</span>,</span>
-<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>                                   <span class="st">&quot;% of total variance)&quot;</span>),</span>
-<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>                       <span class="at">ylab=</span><span class="fu">paste0</span>(<span class="st">&quot;PC Axis 2 (&quot;</span>,</span>
-<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a>                                   <span class="fu">signif</span>(PCA_summary<span class="sc">$</span>PC.summary[<span class="dv">2</span>,<span class="dv">2</span>],<span class="dv">3</span>)<span class="sc">*</span><span class="dv">100</span>,</span>
-<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>                                   <span class="st">&quot;% of total variance)&quot;</span>),</span>
-<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>                       <span class="at">label.tick.marks =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>                       <span class="at">zlab=</span><span class="st">&quot;Geologic Time Period&quot;</span>,</span>
-<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a>                       <span class="co">#additional graphics options for a clean plot</span></span>
-<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a>                       <span class="at">box=</span>F,<span class="at">x.ticklabs=</span><span class="cn">NA</span>,<span class="at">y.ticklabs=</span><span class="cn">NA</span>) </span>
-<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="sc">$</span><span class="fu">plane3d</span>(<span class="dv">20</span>,<span class="dv">0</span>,<span class="dv">0</span>,<span class="at">lty=</span><span class="st">&quot;solid&quot;</span>,<span class="at">col=</span><span class="st">&quot;grey&quot;</span>)</span>
-<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="sc">$</span><span class="fu">plane3d</span>(<span class="dv">40</span>,<span class="dv">0</span>,<span class="dv">0</span>,<span class="at">lty=</span><span class="st">&quot;solid&quot;</span>,<span class="at">col=</span><span class="st">&quot;grey&quot;</span>)</span>
-<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="sc">$</span><span class="fu">plane3d</span>(<span class="dv">60</span>,<span class="dv">0</span>,<span class="dv">0</span>,<span class="at">lty=</span><span class="st">&quot;solid&quot;</span>,<span class="at">col=</span><span class="st">&quot;grey&quot;</span>)</span>
-<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="sc">$</span><span class="fu">points3d</span>(<span class="at">x =</span> PCA<span class="sc">$</span>x[,<span class="dv">1</span>], </span>
-<span id="cb16-30"><a href="#cb16-30" aria-hidden="true" tabindex="-1"></a>                       <span class="at">y =</span> PCA<span class="sc">$</span>x[,<span class="dv">2</span>], </span>
-<span id="cb16-31"><a href="#cb16-31" aria-hidden="true" tabindex="-1"></a>                       <span class="at">z =</span> time_period2, </span>
-<span id="cb16-32"><a href="#cb16-32" aria-hidden="true" tabindex="-1"></a>                       <span class="at">pch =</span><span class="dv">19</span>, </span>
-<span id="cb16-33"><a href="#cb16-33" aria-hidden="true" tabindex="-1"></a>                       <span class="at">col=</span>habitat_colors)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co">#stacked morphospace</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="ot">&lt;-</span><span class="fu">scatterplot3d</span>(<span class="at">x =</span> PCA<span class="sc">$</span>x[,<span class="dv">1</span>], <span class="co">#PC axis 1 scores</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>                       <span class="at">y =</span> PCA<span class="sc">$</span>x[,<span class="dv">2</span>], <span class="co">#PC axis 2 scores</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>                       <span class="at">z =</span> time_period2, <span class="co">#time bins</span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>                       <span class="at">pch =</span><span class="dv">19</span>, <span class="co">#shape of the points</span></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>                       <span class="at">angle =</span> <span class="dv">10</span>,</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>                       <span class="at">color=</span>habitat_colors, <span class="co">#color the points</span></span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>                       <span class="at">z.ticklabs=</span><span class="fu">c</span>(<span class="st">&quot;Jurassic&quot;</span>,</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;&quot;</span>,</span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;Cretaceous&quot;</span>,</span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;&quot;</span>,</span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;Cenozoic&quot;</span>,</span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;&quot;</span>,</span>
+<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;Modern&quot;</span>),</span>
+<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>                       <span class="at">xlab=</span><span class="fu">paste0</span>(<span class="st">&quot;PC Axis 1 (&quot;</span>,</span>
+<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a>                                   <span class="fu">signif</span>(PCA_summary<span class="sc">$</span>PC.summary[<span class="dv">2</span>,<span class="dv">1</span>],<span class="dv">3</span>)<span class="sc">*</span><span class="dv">100</span>,</span>
+<span id="cb19-18"><a href="#cb19-18" aria-hidden="true" tabindex="-1"></a>                                   <span class="st">&quot;% of total variance)&quot;</span>),</span>
+<span id="cb19-19"><a href="#cb19-19" aria-hidden="true" tabindex="-1"></a>                       <span class="at">ylab=</span><span class="fu">paste0</span>(<span class="st">&quot;PC Axis 2 (&quot;</span>,</span>
+<span id="cb19-20"><a href="#cb19-20" aria-hidden="true" tabindex="-1"></a>                                   <span class="fu">signif</span>(PCA_summary<span class="sc">$</span>PC.summary[<span class="dv">2</span>,<span class="dv">2</span>],<span class="dv">3</span>)<span class="sc">*</span><span class="dv">100</span>,</span>
+<span id="cb19-21"><a href="#cb19-21" aria-hidden="true" tabindex="-1"></a>                                   <span class="st">&quot;% of total variance)&quot;</span>),</span>
+<span id="cb19-22"><a href="#cb19-22" aria-hidden="true" tabindex="-1"></a>                       <span class="at">label.tick.marks =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb19-23"><a href="#cb19-23" aria-hidden="true" tabindex="-1"></a>                       <span class="at">zlab=</span><span class="st">&quot;Geologic Time Period&quot;</span>,</span>
+<span id="cb19-24"><a href="#cb19-24" aria-hidden="true" tabindex="-1"></a>                       <span class="co">#additional graphics options for a clean plot</span></span>
+<span id="cb19-25"><a href="#cb19-25" aria-hidden="true" tabindex="-1"></a>                       <span class="at">box=</span>F,<span class="at">x.ticklabs=</span><span class="cn">NA</span>,<span class="at">y.ticklabs=</span><span class="cn">NA</span>) </span>
+<span id="cb19-26"><a href="#cb19-26" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="sc">$</span><span class="fu">plane3d</span>(<span class="dv">20</span>,<span class="dv">0</span>,<span class="dv">0</span>,<span class="at">lty=</span><span class="st">&quot;solid&quot;</span>,<span class="at">col=</span><span class="st">&quot;grey&quot;</span>)</span>
+<span id="cb19-27"><a href="#cb19-27" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="sc">$</span><span class="fu">plane3d</span>(<span class="dv">40</span>,<span class="dv">0</span>,<span class="dv">0</span>,<span class="at">lty=</span><span class="st">&quot;solid&quot;</span>,<span class="at">col=</span><span class="st">&quot;grey&quot;</span>)</span>
+<span id="cb19-28"><a href="#cb19-28" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="sc">$</span><span class="fu">plane3d</span>(<span class="dv">60</span>,<span class="dv">0</span>,<span class="dv">0</span>,<span class="at">lty=</span><span class="st">&quot;solid&quot;</span>,<span class="at">col=</span><span class="st">&quot;grey&quot;</span>)</span>
+<span id="cb19-29"><a href="#cb19-29" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="sc">$</span><span class="fu">points3d</span>(<span class="at">x =</span> PCA<span class="sc">$</span>x[,<span class="dv">1</span>], </span>
+<span id="cb19-30"><a href="#cb19-30" aria-hidden="true" tabindex="-1"></a>                       <span class="at">y =</span> PCA<span class="sc">$</span>x[,<span class="dv">2</span>], </span>
+<span id="cb19-31"><a href="#cb19-31" aria-hidden="true" tabindex="-1"></a>                       <span class="at">z =</span> time_period2, </span>
+<span id="cb19-32"><a href="#cb19-32" aria-hidden="true" tabindex="-1"></a>                       <span class="at">pch =</span><span class="dv">19</span>, </span>
+<span id="cb19-33"><a href="#cb19-33" aria-hidden="true" tabindex="-1"></a>                       <span class="at">col=</span>habitat_colors)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
