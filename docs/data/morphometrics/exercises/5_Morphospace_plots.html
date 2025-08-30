@@ -3194,6 +3194,15 @@ Making projections... Finished!</code></pre>
 </ul>
 <p>The <code>morphospace</code> package makes it very easy to do these sorts of data explorations</p>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#define some good color-blind friendly colors:</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="co">#see https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>cbb_colors<span class="ot">&lt;-</span><span class="fu">c</span>(<span class="st">&quot;#D81B60&quot;</span>,<span class="st">&quot;#1E88E5&quot;</span>,<span class="st">&quot;#FFC107&quot;</span>,<span class="st">&quot;#004D40&quot;</span>,<span class="st">&quot;black&quot;</span>)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>habitats<span class="ot">&lt;-</span><span class="fu">as.factor</span>(eco_dat<span class="sc">$</span>Habitat)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(habitats)<span class="ot">&lt;-</span>eco_dat<span class="sc">$</span>Tip_label</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>fossils<span class="ot">&lt;-</span><span class="fu">as.factor</span>(eco_dat<span class="sc">$</span>extinct)</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(fossils)<span class="ot">&lt;-</span>eco_dat<span class="sc">$</span>Tip_label</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>habitat_colors<span class="ot">&lt;-</span>cbb_colors[habitats]</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="fu">mspace</span>(gpa<span class="sc">$</span>coords) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Preparing for snapshot: rotate mean shape to the desired orientation
  (don&#39;t close or minimize the rgl device).Press &lt;Enter&gt; in the console to continue:
@@ -3210,31 +3219,31 @@ DONE.</code></pre>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>msp<span class="ot">&lt;-</span><span class="fu">mspace</span>(gpa<span class="sc">$</span>coords, <span class="at">plot=</span><span class="cn">FALSE</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="co"># scatter points</span></span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">proj_shapes</span>(<span class="at">shapes =</span> gpa<span class="sc">$</span>coords, <span class="at">col =</span> habitat_colors) <span class="sc">%&gt;%</span> </span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="co"># convex hulls enclosing groups</span></span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">proj_groups</span>( <span class="at">groups =</span> habitats, <span class="at">col=</span>cbb_colors[<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>], <span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">plot_mspace</span>(<span class="at">legend =</span> <span class="cn">TRUE</span>, <span class="at">cex.legend =</span> .<span class="dv">7</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>msp<span class="ot">&lt;-</span><span class="fu">mspace</span>(gpa<span class="sc">$</span>coords, <span class="at">plot=</span><span class="cn">FALSE</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="co"># scatter points</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">proj_shapes</span>(<span class="at">shapes =</span> gpa<span class="sc">$</span>coords, <span class="at">col =</span> habitat_colors) <span class="sc">%&gt;%</span> </span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="co"># convex hulls enclosing groups</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">proj_groups</span>( <span class="at">groups =</span> habitats, <span class="at">col=</span>cbb_colors[<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>], <span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">plot_mspace</span>(<span class="at">legend =</span> <span class="cn">TRUE</span>, <span class="at">cex.legend =</span> .<span class="dv">7</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>I Still think those clusters of landmarks are hard to interpret- lets use warps of a mesh of a specimen</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#load in a mesh</span></span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>m1<span class="ot">&lt;-</span><span class="fu">vcgImport</span>(<span class="st">&quot;./Data/Alligator_mississippiensis.ply&quot;</span>)</span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="fu">shade3d</span>(m1, <span class="at">col=</span><span class="st">&quot;#E4D1C0&quot;</span>, <span class="at">specular=</span><span class="st">&quot;black&quot;</span>)</span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co">#make a &quot;hypothetical shape&quot;,</span></span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="co">#the mean of all specimens,</span></span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co">#by warping the skull of the alligator to the landmark configuration of the mean specimen</span></span>
-<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>mean_skull <span class="ot">&lt;-</span> <span class="fu">warpRefMesh</span>(<span class="at">mesh=</span>m1,</span>
-<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>                          <span class="at">mesh.coord =</span> shape_data[,,<span class="st">&quot;Alligator_mississippiensis&quot;</span>],</span>
-<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>                          gpa<span class="sc">$</span>consensus)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">#load in a mesh</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>m1<span class="ot">&lt;-</span><span class="fu">vcgImport</span>(<span class="st">&quot;./Data/Alligator_mississippiensis.ply&quot;</span>)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="fu">shade3d</span>(m1, <span class="at">col=</span><span class="st">&quot;#E4D1C0&quot;</span>, <span class="at">specular=</span><span class="st">&quot;black&quot;</span>)</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="co">#make a &quot;hypothetical shape&quot;,</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="co">#the mean of all specimens,</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="co">#by warping the skull of the alligator to the landmark configuration of the mean specimen</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>mean_skull <span class="ot">&lt;-</span> <span class="fu">warpRefMesh</span>(<span class="at">mesh=</span>m1,</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>                          <span class="at">mesh.coord =</span> shape_data[,,<span class="st">&quot;Alligator_mississippiensis&quot;</span>],</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>                          gpa<span class="sc">$</span>consensus)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>and now plot with 3D models representing shape change:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mspace</span>(gpa<span class="sc">$</span>coords, <span class="at">template=</span> mean_skull,<span class="at">bg.model =</span> <span class="st">&quot;gray&quot;</span>,</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>                  <span class="at">cex.ldm =</span> <span class="dv">0</span>, <span class="at">adj_frame =</span> <span class="fu">c</span>(<span class="fl">0.9</span>, <span class="fl">0.85</span>)) <span class="sc">%&gt;%</span></span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># scatter points</span></span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">proj_shapes</span>(<span class="at">shapes =</span> gpa<span class="sc">$</span>coords, <span class="at">col =</span> habitat_colors) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mspace</span>(gpa<span class="sc">$</span>coords, <span class="at">template=</span> mean_skull,<span class="at">bg.model =</span> <span class="st">&quot;gray&quot;</span>,</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>                  <span class="at">cex.ldm =</span> <span class="dv">0</span>, <span class="at">adj_frame =</span> <span class="fu">c</span>(<span class="fl">0.9</span>, <span class="fl">0.85</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># scatter points</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">proj_shapes</span>(<span class="at">shapes =</span> gpa<span class="sc">$</span>coords, <span class="at">col =</span> habitat_colors) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Preparing for snapshot: rotate mean shape to the desired orientation
  (don&#39;t close or minimize the rgl device).Press &lt;Enter&gt; in the console to continue:
@@ -3255,16 +3264,16 @@ DONE.</code></pre>
 <h2 class="anchored" data-anchor-id="phylomorphospace">Phylomorphospace</h2>
 <p>Another useful way of using morphospace is to project the phylogenetic tree into the ordination so that we can make hypotheses about how evolutionary relationships relate to phenotypic similarities or differences. For example, this will help us see if there could be convergent evolution if we see two species with very similar shapes (positions in morphospace) that have ancestors in completely different parts of morphospace.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>eco_dat_phylo<span class="ot">&lt;-</span>eco_dat[<span class="fu">match</span>(phylo1<span class="sc">$</span>tip.label, eco_dat<span class="sc">$</span>Tip_label),]</span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>habitats_phylo<span class="ot">&lt;-</span><span class="fu">as.factor</span>(eco_dat_phylo<span class="sc">$</span>Habitat)</span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(habitats_phylo)<span class="ot">&lt;-</span>eco_dat_phylo<span class="sc">$</span>Tip_label</span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>tip_colors<span class="ot">&lt;-</span>cbb_colors[habitats_phylo]</span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>msp<span class="ot">&lt;-</span><span class="fu">mspace</span>(gpa<span class="sc">$</span>coords, <span class="at">models=</span><span class="cn">FALSE</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>  <span class="co"># scatter points</span></span>
-<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">proj_shapes</span>(<span class="at">shapes =</span> gpa<span class="sc">$</span>coords, <span class="at">col =</span> habitat_colors) <span class="sc">%&gt;%</span> </span>
-<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>  <span class="co"># phylogenetic relationships</span></span>
-<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">proj_phylogeny</span>(<span class="at">shapes =</span> gpa<span class="sc">$</span>coords, <span class="at">tree =</span> phylo1, <span class="at">col.tips=</span>tip_colors)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>eco_dat_phylo<span class="ot">&lt;-</span>eco_dat[<span class="fu">match</span>(phylo1<span class="sc">$</span>tip.label, eco_dat<span class="sc">$</span>Tip_label),]</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>habitats_phylo<span class="ot">&lt;-</span><span class="fu">as.factor</span>(eco_dat_phylo<span class="sc">$</span>Habitat)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(habitats_phylo)<span class="ot">&lt;-</span>eco_dat_phylo<span class="sc">$</span>Tip_label</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>tip_colors<span class="ot">&lt;-</span>cbb_colors[habitats_phylo]</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>msp<span class="ot">&lt;-</span><span class="fu">mspace</span>(gpa<span class="sc">$</span>coords, <span class="at">models=</span><span class="cn">FALSE</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>  <span class="co"># scatter points</span></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">proj_shapes</span>(<span class="at">shapes =</span> gpa<span class="sc">$</span>coords, <span class="at">col =</span> habitat_colors) <span class="sc">%&gt;%</span> </span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>  <span class="co"># phylogenetic relationships</span></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">proj_phylogeny</span>(<span class="at">shapes =</span> gpa<span class="sc">$</span>coords, <span class="at">tree =</span> phylo1, <span class="at">col.tips=</span>tip_colors)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Preparing for snapshot: rotate mean shape to the desired orientation
  (don&#39;t close or minimize the rgl device).Press &lt;Enter&gt; in the console to continue:
@@ -3302,39 +3311,39 @@ DONE.</code></pre>
 </ol>
 <p>Now we can build the plot</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">#stacked morphospace</span></span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="ot">&lt;-</span><span class="fu">scatterplot3d</span>(<span class="at">x =</span> PCA<span class="sc">$</span>x[,<span class="dv">1</span>], <span class="co">#PC axis 1 scores</span></span>
-<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>                       <span class="at">y =</span> PCA<span class="sc">$</span>x[,<span class="dv">2</span>], <span class="co">#PC axis 2 scores</span></span>
-<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>                       <span class="at">z =</span> time_period2, <span class="co">#time bins</span></span>
-<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>                       <span class="at">pch =</span><span class="dv">19</span>, <span class="co">#shape of the points</span></span>
-<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>                       <span class="at">angle =</span> <span class="dv">10</span>,</span>
-<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>                       <span class="at">color=</span>habitat_colors, <span class="co">#color the points</span></span>
-<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>                       <span class="at">z.ticklabs=</span><span class="fu">c</span>(<span class="st">&quot;Jurassic&quot;</span>,</span>
-<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;&quot;</span>,</span>
-<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;Cretaceous&quot;</span>,</span>
-<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;&quot;</span>,</span>
-<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;Cenozoic&quot;</span>,</span>
-<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;&quot;</span>,</span>
-<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;Modern&quot;</span>),</span>
-<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a>                       <span class="at">xlab=</span><span class="fu">paste0</span>(<span class="st">&quot;PC Axis 1 (&quot;</span>,</span>
-<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>                                   <span class="fu">signif</span>(PCA_summary<span class="sc">$</span>PC.summary[<span class="dv">2</span>,<span class="dv">1</span>],<span class="dv">3</span>)<span class="sc">*</span><span class="dv">100</span>,</span>
-<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a>                                   <span class="st">&quot;% of total variance)&quot;</span>),</span>
-<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a>                       <span class="at">ylab=</span><span class="fu">paste0</span>(<span class="st">&quot;PC Axis 2 (&quot;</span>,</span>
-<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a>                                   <span class="fu">signif</span>(PCA_summary<span class="sc">$</span>PC.summary[<span class="dv">2</span>,<span class="dv">2</span>],<span class="dv">3</span>)<span class="sc">*</span><span class="dv">100</span>,</span>
-<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>                                   <span class="st">&quot;% of total variance)&quot;</span>),</span>
-<span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a>                       <span class="at">label.tick.marks =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a>                       <span class="at">zlab=</span><span class="st">&quot;Geologic Time Period&quot;</span>,</span>
-<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a>                       <span class="co">#additional graphics options for a clean plot</span></span>
-<span id="cb15-25"><a href="#cb15-25" aria-hidden="true" tabindex="-1"></a>                       <span class="at">box=</span>F,<span class="at">x.ticklabs=</span><span class="cn">NA</span>,<span class="at">y.ticklabs=</span><span class="cn">NA</span>) </span>
-<span id="cb15-26"><a href="#cb15-26" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="sc">$</span><span class="fu">plane3d</span>(<span class="dv">20</span>,<span class="dv">0</span>,<span class="dv">0</span>,<span class="at">lty=</span><span class="st">&quot;solid&quot;</span>,<span class="at">col=</span><span class="st">&quot;grey&quot;</span>)</span>
-<span id="cb15-27"><a href="#cb15-27" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="sc">$</span><span class="fu">plane3d</span>(<span class="dv">40</span>,<span class="dv">0</span>,<span class="dv">0</span>,<span class="at">lty=</span><span class="st">&quot;solid&quot;</span>,<span class="at">col=</span><span class="st">&quot;grey&quot;</span>)</span>
-<span id="cb15-28"><a href="#cb15-28" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="sc">$</span><span class="fu">plane3d</span>(<span class="dv">60</span>,<span class="dv">0</span>,<span class="dv">0</span>,<span class="at">lty=</span><span class="st">&quot;solid&quot;</span>,<span class="at">col=</span><span class="st">&quot;grey&quot;</span>)</span>
-<span id="cb15-29"><a href="#cb15-29" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="sc">$</span><span class="fu">points3d</span>(<span class="at">x =</span> PCA<span class="sc">$</span>x[,<span class="dv">1</span>], </span>
-<span id="cb15-30"><a href="#cb15-30" aria-hidden="true" tabindex="-1"></a>                       <span class="at">y =</span> PCA<span class="sc">$</span>x[,<span class="dv">2</span>], </span>
-<span id="cb15-31"><a href="#cb15-31" aria-hidden="true" tabindex="-1"></a>                       <span class="at">z =</span> time_period2, </span>
-<span id="cb15-32"><a href="#cb15-32" aria-hidden="true" tabindex="-1"></a>                       <span class="at">pch =</span><span class="dv">19</span>, </span>
-<span id="cb15-33"><a href="#cb15-33" aria-hidden="true" tabindex="-1"></a>                       <span class="at">col=</span>habitat_colors)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">#stacked morphospace</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="ot">&lt;-</span><span class="fu">scatterplot3d</span>(<span class="at">x =</span> PCA<span class="sc">$</span>x[,<span class="dv">1</span>], <span class="co">#PC axis 1 scores</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>                       <span class="at">y =</span> PCA<span class="sc">$</span>x[,<span class="dv">2</span>], <span class="co">#PC axis 2 scores</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>                       <span class="at">z =</span> time_period2, <span class="co">#time bins</span></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>                       <span class="at">pch =</span><span class="dv">19</span>, <span class="co">#shape of the points</span></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>                       <span class="at">angle =</span> <span class="dv">10</span>,</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>                       <span class="at">color=</span>habitat_colors, <span class="co">#color the points</span></span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>                       <span class="at">z.ticklabs=</span><span class="fu">c</span>(<span class="st">&quot;Jurassic&quot;</span>,</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;&quot;</span>,</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;Cretaceous&quot;</span>,</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;&quot;</span>,</span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;Cenozoic&quot;</span>,</span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;&quot;</span>,</span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;Modern&quot;</span>),</span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>                       <span class="at">xlab=</span><span class="fu">paste0</span>(<span class="st">&quot;PC Axis 1 (&quot;</span>,</span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>                                   <span class="fu">signif</span>(PCA_summary<span class="sc">$</span>PC.summary[<span class="dv">2</span>,<span class="dv">1</span>],<span class="dv">3</span>)<span class="sc">*</span><span class="dv">100</span>,</span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>                                   <span class="st">&quot;% of total variance)&quot;</span>),</span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>                       <span class="at">ylab=</span><span class="fu">paste0</span>(<span class="st">&quot;PC Axis 2 (&quot;</span>,</span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a>                                   <span class="fu">signif</span>(PCA_summary<span class="sc">$</span>PC.summary[<span class="dv">2</span>,<span class="dv">2</span>],<span class="dv">3</span>)<span class="sc">*</span><span class="dv">100</span>,</span>
+<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>                                   <span class="st">&quot;% of total variance)&quot;</span>),</span>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>                       <span class="at">label.tick.marks =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>                       <span class="at">zlab=</span><span class="st">&quot;Geologic Time Period&quot;</span>,</span>
+<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a>                       <span class="co">#additional graphics options for a clean plot</span></span>
+<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a>                       <span class="at">box=</span>F,<span class="at">x.ticklabs=</span><span class="cn">NA</span>,<span class="at">y.ticklabs=</span><span class="cn">NA</span>) </span>
+<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="sc">$</span><span class="fu">plane3d</span>(<span class="dv">20</span>,<span class="dv">0</span>,<span class="dv">0</span>,<span class="at">lty=</span><span class="st">&quot;solid&quot;</span>,<span class="at">col=</span><span class="st">&quot;grey&quot;</span>)</span>
+<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="sc">$</span><span class="fu">plane3d</span>(<span class="dv">40</span>,<span class="dv">0</span>,<span class="dv">0</span>,<span class="at">lty=</span><span class="st">&quot;solid&quot;</span>,<span class="at">col=</span><span class="st">&quot;grey&quot;</span>)</span>
+<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="sc">$</span><span class="fu">plane3d</span>(<span class="dv">60</span>,<span class="dv">0</span>,<span class="dv">0</span>,<span class="at">lty=</span><span class="st">&quot;solid&quot;</span>,<span class="at">col=</span><span class="st">&quot;grey&quot;</span>)</span>
+<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a>plot3d1<span class="sc">$</span><span class="fu">points3d</span>(<span class="at">x =</span> PCA<span class="sc">$</span>x[,<span class="dv">1</span>], </span>
+<span id="cb16-30"><a href="#cb16-30" aria-hidden="true" tabindex="-1"></a>                       <span class="at">y =</span> PCA<span class="sc">$</span>x[,<span class="dv">2</span>], </span>
+<span id="cb16-31"><a href="#cb16-31" aria-hidden="true" tabindex="-1"></a>                       <span class="at">z =</span> time_period2, </span>
+<span id="cb16-32"><a href="#cb16-32" aria-hidden="true" tabindex="-1"></a>                       <span class="at">pch =</span><span class="dv">19</span>, </span>
+<span id="cb16-33"><a href="#cb16-33" aria-hidden="true" tabindex="-1"></a>                       <span class="at">col=</span>habitat_colors)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
