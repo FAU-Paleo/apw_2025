@@ -27,7 +27,7 @@ Welcome to Module 6: Time series analyses with Layeranalyzer
 
 ## Lecture slides
 
-- [ErlangenLiow5.pdf]({{site.url}}/{{site.baseurl}}/data/timeseries/ErlangenLiow5.pdf)  
+- [ErlangenLiow5_2025.sep3.pdf]({{site.url}}/{{site.baseurl}}/data/timeseries/ErlangenLiow5_2025.sep3.pdf)  
 
 ## R Code
 
@@ -39,11 +39,13 @@ Welcome to Module 6: Time series analyses with Layeranalyzer
 - [Theriot et al 2006 dia.txt]({{site.url}}/{{site.baseurl}}/data/timeseries/Theriot et al 2006 dia.txt)
 - [Theriot et al 2006 ribs.txt]({{site.url}}/{{site.baseurl}}/data/timeseries/Theriot et al 2006 ribs.txt)
 - [Theriot et al 2006 spines.txt]({{site.url}}/{{site.baseurl}}/data/timeseries/Theriot et al 2006 spines.txt)
+- [layerdata.RData]({{site.url}}/{{site.baseurl}}/data/timeseries/layerdata.RData)
 
 ## Literature
 
 - [Reitan & Liow 2019 Methods in Ecology and Evolution.pdf]({{site.url}}/{{site.baseurl}}/data/timeseries/Reitan & Liow 2019 Methods in Ecology and Evolution.pdf)
 - [Hannisdal and Liow 2018 Palaeontology.pdf]({{site.url}}/{{site.baseurl}}/data/timeseries/Hannisdal and Liow 2018 Palaeontology.pdf)
 - [Voje 2023.pdf]({{site.url}}/{{site.baseurl}}/data/timeseries/Voje 2023.pdf)
+- [Yule-SometimesgetNonsenseCorrelations-1926.pdf]({{site.url}}/{{site.baseurl}}/data/timeseries/Yule-SometimesgetNonsenseCorrelations-1926.pdf)
 
 
