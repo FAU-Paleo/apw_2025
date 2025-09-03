@@ -27,7 +27,7 @@ Welcome to Module 6: Time series analyses with Layeranalyzer
 
 ## Lecture slides
 
-- [ErlangenLiow5_2025.sep3.pdf]({{site.url}}/{{site.baseurl}}/data/timeseries/ErlangenLiow5_2025.sep3.pdf)  
+- [ErlangenLiow5_3_Sep-2025.pdf]({{site.url}}/{{site.baseurl}}/data/timeseries/ErlangenLiow5_3_Sep-2025.pdf)  
 
 ## R Code
 
