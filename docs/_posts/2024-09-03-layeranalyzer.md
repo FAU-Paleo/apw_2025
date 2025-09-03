@@ -5,9 +5,9 @@ date: 2024-09-03
 permalink: "timeseries/"
 ---
 
-# Module 6: Time series 
+# Module 8: Time series 
 
-Welcome to Module 6: Time series analyses with Layeranalyzer
+Welcome to Module 8: Time series analyses with Layeranalyzer
 
 
 
